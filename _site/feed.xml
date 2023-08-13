@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2taezeat Blog.</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 13 Aug 2023 15:03:59 +0900</pubDate>
+    <lastBuildDate>Sun, 13 Aug 2023 15:03:59 +0900</lastBuildDate>
+    <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>C1: hello</title>
+        <description>&lt;h1 id=&quot;접수-이벤트&quot;&gt;접수 이벤트&lt;/h1&gt;
+&lt;h2 id=&quot;나만의-체크-포인트&quot;&gt;나만의 체크 포인트&lt;/h2&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;물류 센터: DistributionCenter&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;택배 현황판: DashBoard&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;택배 자료구조: MyPackage&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;택배기사: DeliveryWorker&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;물류기사: DistributionWorker&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;대기큐에 들어있는 이벤트를 꺼내서 처리하는 이벤트 루퍼: EventLooper&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;주기적으로 접수 대기큐에서 이벤트를 확인한다: Manager&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Handler 인터페이스&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Event 자료구조&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;이벤트 전달 방식으로 동작&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Worker는 시작할 때와 끝날 때 마다 이벤트를 발생한다.&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;접수 기계(POS)는 접수를 연속해서 받을 수 있다.&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;접수한 물품에 대해 대기중/분류중/배송중/배송완료 상태를 표시한다.&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;직접 스레드를 만들면 안되고, Event를 처리하는 비동기 이벤트 처리하도록 구현한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;문제-해결-과정&quot;&gt;문제 해결 과정&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;분 단위 시간 적용&lt;/li&gt;
+  &lt;li&gt;Handler 인터페이스를 상속받은 클래스는 send와 handleEvent가 가능하다.&lt;/li&gt;
+  &lt;li&gt;Event는 handler와 message로 구생되어 있다.&lt;/li&gt;
+  &lt;li&gt;Enum PackageState을 생성하였다.&lt;/li&gt;
+  &lt;li&gt;Worker들은 start, work, end 순으로 일을 진행한다.&lt;/li&gt;
+  &lt;li&gt;Worker 들은 일이 모두 끝나면 sendEvent를 호출한다.&lt;/li&gt;
+  &lt;li&gt;문제의 가정에 따라 구현하였다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;학습-메모&quot;&gt;학습 메모&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;비동기&lt;/li&gt;
+  &lt;li&gt;Looper, Handler&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;동기-비동기&quot;&gt;&lt;strong&gt;&lt;em&gt;동기, 비동기&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;동기와 비동기의 차이는 &lt;strong&gt;호출되는 함수의 작업 완료 여부를 신경쓰는지의 여부&lt;/strong&gt;의 차이이다.&lt;/p&gt;
+
+&lt;p&gt;동기와 비동기는 프로세스의 수행 순서 보장에 대한 매커니즘&lt;/p&gt;
+
+&lt;p&gt;처리해야 할 작업들을 어떠한 ‘흐름’으로 처리 할 것인가에 대한 관점&lt;/p&gt;
+
+&lt;p&gt;즉, 호출되는 함수의 작업 완료 여부를 신경쓰냐에 따라, 함수 실행/리턴 순차적인 흐름을 따르느냐, 안따르느냐 관심사&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 동기
+  1. 동시에 일어난다는 뜻, 요청과 그 결과 동시에 일어난다는 약속이다.
+  2. 바로 요청을 하면 시간이 얼마가 걸리던지 요청한 자리에서 결과가 주어져야 한다.
+  3. 요청과 결과가 한 자리에서 동시에 일어난다.
+  4. 호출하는 함수 A가 호출되는 함수 B의 작업 완료 후 리턴을 기다리거나, 바로 리턴 받더라도 미완료 상태이라면 작업 완료 여부를 스스로 계속 확인하며 신경쓰면 Synchronous
+
+  - 현재 작업의 응답이 끝남과 동시에 다음 작업이 요청된다.
+  - 함수를 호출하는 곳에서 호출되는 함수가 결과를 반환할 때까지 기다린다.
+  - 작업 완료 여부를 계속해서 확인한다.
+
+
+2. 비동기
+  1. 요청과 결과가 동시에 일어나지 않을 것이라는 약속이다.
+  2. 요청한 그 자리에서 결과가 주어지지 않는다.
+  3. 함수 A가 함수 B를 호출할 때 콜백 함수를 함께 전달해서, 함수 B의 작업이 완료되면 함께 보낸 콜백 함수를 실행한다. 함수 A는 함수 B를 호출한 후로 함수 B의 작업 완료 여부에는 신경쓰지 않는다. Asynchronous
+
+  - 현재 작업의 응답이 끝나지 않은 상태에서 다음 작업이 요청된다.
+  - 함수를 호출하는 곳에서 결과를 기다리지 않고, 다른 함수(callback)에서 결과를 처리한다.
+  - 작업 완료 여부를 확인하지 않는다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;블로킹-논블로킹&quot;&gt;&lt;strong&gt;&lt;em&gt;블로킹, 논블로킹&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;블로킹과 논블로킹은 A 함수가 B 함수를 호출했을 때, &lt;strong&gt;제어권을 어떻게 처리하느냐에 따라 달라진다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;블록킹과 논블록킹은 프로세스의 유휴 상태에 대한 개념으로 완전한 별개의 개념이라는 것이다.&lt;/p&gt;
+
+&lt;p&gt;처리되어야 하는 (하나의) 작업이, 전체적인 작업 ‘흐름’을 막느냐 안막느냐에 대한 관점&lt;/p&gt;
+
+&lt;p&gt;즉, 제어권이 누구한테 있느냐가 관심사&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 블로킹 : A 함수가 B 함수를 호출하면, 제어권을 A가 호출한 B함수에 넘겨주는 것
+  1. A함수가 B함수를 호출하면 B에게 제어권을 넘긴다.
+  2. 제어권을 넘겨받은 B는 함수를 실행하고, A는 B에게 제어권을 넘겨주었기 때문에 함수 실행을 잠시 멈춘다.
+  3. B함수는 실행이 끝나면 자신이 호출한 A에게 제어권을 돌려준다.
+
+
+2. 논블로킹 : A함수가 B함수를 호출해도 제어권은 그대로 자신이 가지고 있는다.
+  1. A함수가 B함수를 호출하면, B함수는 실행되지만, 제어권은 A함수가 그대로 가지고 있는다.
+  2. A함수는 계속 제어권을 가지고 있기 때문에 B함수를 호출한 이후에도 자신의 코드를 계속 실행한다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;코루틴-기본&quot;&gt;&lt;strong&gt;&lt;em&gt;코루틴 기본&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 코루틴 : 스레드 안에서 실행되는 일시 중단 가능한 작업의 단위이다. // 하나의 스레드에 여러 코루틴이 존재할 수 있다.
+2. 코루틴 : 실행을 suspend(일시 연기)하고 resume(재개) 할 수 있도록 하여 비선점형 멀티 태스킹을 위한 서브 루틴을 일반화하는 프로그램 구성 요소
+3. 루틴 : 하나의 코드 블럭, 간단히 함수, 프로시저, 일반적으로 함수는 하나의 진입점을 통해 실행되고 하나의 종료 지점(return)을 통해 끝난다.
+
+4. 코루틴의 특징
+  1. 협력형 멀티 태스킹, 비선점형 멀티 태스킹
+    1. 비선점형은 실행 주체가 자신의 실행권을 자발적으로 내려 좋는것을 의미
+  2. 동시성 프로그래밍을 지원
+    1. 동시성이란 운영체제의 시분할에 의해서 달성된다. 동시에 여러 작업을 수행하는 것, 시분할 기법을 활용하여 조금씩 나누어 Task를 번갈아가며 실행 하는 것, 병렬성과 다름
+    2. 병렬성 : 여러 작업을 한번에 동시에 수행하는 것, 병렬성은 CPU 코어가 여러개 일 떄 가능하다.
+
+5. 지연과 재개
+  1. 코루틴이 비선점형 멀티태스킹의 서브루틴 형태라는 것을 이해한다면 지연과 재개가 자연스럽게 필요하다.
+  2. 여러 스레드가 CPU 스케쥴링의 관리 아래에서 협력적으로 동작한다면, 코루틴은 스레드내에서 자발적인 지연과 재개를 통해 협력적으로 동작한다. CPU 스케쥴링에 직접적인 영향을 받지 않기 때문에 지연과 재개가 필요하다.
+  
+6. 코루틴을 구성하는 요소에는 Coroutine Scope, Coroutine Context, Coroutine Builder가 있다.
+
+7. Coroutine Scope
+  1. CoroutineScope : 코루틴의 Scope를 정의하는 인터페이스
+  2. GlobalScope : 코루틴 스코프의 한 종류, 싱글톤으로 Top-level 코루틴을 실행할때 사용, Application의 생명주기에 종속적으로 존재
+  
+8. Coroutine Context
+  1. 디스 패처는 코루틴이 실행되는 쓰레드를 지정해줌.
+  2. Deferred는 결과값을 가지는 Job
+  3. 코루틴의 추상적인 흐름을 job이라는 오브젝트로 만듬.
+  4. 코루틴 한 덩어리를 job으로 만들면, 이 job 오브젝트로 취소나 오류 처리를 할 수 있게 된다.
+  5. job의 취소는 cancel, 현재의 코루틴 동작이 끝날 때 까지 대기한다.
+  6. join 함수는 job이 끝날 때 까지 현재 코루틴에게 기다리라고 명령하는 함수
+
+
+9. Coroutine Builder
+  1. CoroutineBuilder의 본질은 결국설정해준 Context와 Scope를 통해 Coroutine을 실행시켜주는 ‘함수’입니다.
+  2. launch로 실행된 Coroutine은 Job 객체를 반환하고,async로 실행된 Coroutine은 Deferred 객체를 반환합니다.
+  3. withContext 는 코루틴내부의 의 Context(디스패쳐)를 변경할 수 있다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;멀티센터-배송-시뮬레이션&quot;&gt;멀티센터 배송 시뮬레이션&lt;/h1&gt;
+
+&lt;h2 id=&quot;나만의-체크-포인트-1&quot;&gt;나만의 체크 포인트&lt;/h2&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;코루틴 적용&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;현재 진행중인 메뉴 제작/배달상태 출력&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;개선하기&quot;&gt;개선하기&lt;/h1&gt;
+
+&lt;h2 id=&quot;나만의-체크-포인트-2&quot;&gt;나만의 체크 포인트&lt;/h2&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;구조적 측면 개선
+    &lt;ul class=&quot;task-list&quot;&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;복잡했던 구조를 단순화하기&lt;/li&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;동기 방식으로 동작하던 부분을 비동기로 바꾸기&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;문제-해결-과정-1&quot;&gt;문제 해결 과정&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;멀티센터 배송 시뮬레이션 에서 코루틴을 사용하여 비동기로 동작하게끔 하려 했다.&lt;/li&gt;
+  &lt;li&gt;이벤트 Looper를 없애고, queue에 직접 접근하는 형식으로 바꿔보았다.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 13 Aug 2023 01:54:46 +0900</pubDate>
+        <link>http://localhost:4000/c1/c2/2023/08/13/hello/</link>
+        <guid isPermaLink="true">http://localhost:4000/c1/c2/2023/08/13/hello/</guid>
+        
+        
+        <category>c1</category>
+        
+        <category>c2</category>
+        
+      </item>
+    
+      <item>
+        <title>Blog: Time to change your apps</title>
+        <description>&lt;!--more--&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;샘플 코드 : https://github.com/Pluu/VersionCodeUpdaterSample&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;방법-1-defaultconfig-속성-수정&quot;&gt;방법 1) defaultConfig 속성 수정&lt;/h2&gt;
+
+&lt;div class=&quot;language-kotlin highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// app/build.gradle.kts&lt;/span&gt;
+&lt;span class=&quot;nf&quot;&gt;android&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;defaultConfig&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;versionCode&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 적용되는 Version Code&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;방법-2-flavor를-통해서-정의&quot;&gt;방법 2) Flavor를 통해서 정의&lt;/h2&gt;
+
+&lt;div class=&quot;language-kotlin highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// app/build.gradle.kts&lt;/span&gt;
+&lt;span class=&quot;nf&quot;&gt;android&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;defaultConfig&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;versionCode&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;flavorDimensions&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;version&quot;&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;productFlavors&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nf&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;demo&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;dimension&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;version&quot;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;versionCode&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1234&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 최종 적용되는 Version Code&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;방법-3-androidcomponents의-onvariants를-사용&quot;&gt;방법 3) androidComponents의 onVariants를 사용&lt;/h2&gt;
+
+&lt;div class=&quot;language-kotlin highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// app/build.gradle.kts&lt;/span&gt;
+&lt;span class=&quot;nf&quot;&gt;android&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;defaultConfig&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;versionCode&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;flavorDimensions&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;version&quot;&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;productFlavors&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nf&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;demo&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;dimension&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;version&quot;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;versionCode&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nf&quot;&gt;androidComponents&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;finalizeDsl&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;defaultConfig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;versionCode&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;onVariants&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;variant&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;-&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;variant&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;outputs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;forEach&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;output&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;-&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;versionCode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1234&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 최종 적용되는 Version Code&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;방법 4에서 적용되는 Version Code가 순서&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;android.defaultConfig.versionCode : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt; 적용&lt;/li&gt;
+  &lt;li&gt;androidComponents.finalizeDsl : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt; 적용&lt;/li&gt;
+  &lt;li&gt;android.productFlavors : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3&lt;/code&gt; 적용&lt;/li&gt;
+  &lt;li&gt;androidComponents.onVariants : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1234&lt;/code&gt; 적용&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sat, 26 Apr 2014 01:54:46 +0900</pubDate>
+        <link>http://localhost:4000/blog/wordpress/photoshop/2014/04/26/time-to-change-your-apps/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/wordpress/photoshop/2014/04/26/time-to-change-your-apps/</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>Wordpress</category>
+        
+        <category>Photoshop</category>
+        
+      </item>
+    
+  </channel>
+</rss>
