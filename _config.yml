@@ -60,6 +60,7 @@ social:
   - title: github
     url: "https://github.com/2taezeat"
 
+timezone: Asia/Seoul
 
 
 plugins: [jekyll-paginate]
