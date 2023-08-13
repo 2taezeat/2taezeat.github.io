@@ -55,3 +55,7 @@ about: "2taezeat, Android Developer Blog"
 # Testimonial content. Shown on Home and About page.
 #testimonial:
 #    message: "Hi there ~"
+
+
+
+plugins: [jekyll-paginate]
