@@ -63,6 +63,8 @@ social:
 timezone: Asia/Seoul
 
 
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-toc
 
 

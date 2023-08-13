@@ -11,22 +11,18 @@ permalink: /blog/all.html
         <div class="col-lg-8">
 
             {% for post in site.categories['blog'] %}
-            <!-- Blog Post -->
-            {% if post.img %}
-            <a href="{{ post.url | prepend: site.baseurl }}">
-                <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
-            </a>
-            {% endif %}
+                <!-- Blog Post -->
+                {% if post.img %}
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
+                </a>
+                {% endif %}
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+                {{ post.excerpt }}
+                <div class="hline"></div>
 
-
-            <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
-            <p>
-                <csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall>
-            </p>
-            <div class="hline"></div>
-            <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
-
-            <div class="spacing"></div>
+                <div class="spacing"></div>
             {% endfor %}
 
         </div><!--/col-lg-8 -->

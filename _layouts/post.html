@@ -7,6 +7,8 @@ layout: default
 <div class="container mtb">
     <div class="row">
         <!-- SINGLE POST -->
+
+
         <div class="col-lg-8">
             <!-- Blog Post  -->
             {% if post.img %}
@@ -23,7 +25,7 @@ layout: default
                 </csmall>
             </p>
 
-            {{ content }}
+            {{ content | toc }}
 
             <div class="spacing"></div>
 
@@ -62,7 +64,7 @@ layout: default
 
 
         <div class="col-lg-4">
-            <h4>Currnte Pages Categories</h4>
+            <h4>Current Pages Categories</h4>
             <div class="hline"></div>
             <p>
                 {% for category in page.categories %}{% unless category == "blog" %}
