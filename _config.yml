@@ -10,9 +10,7 @@ url: "https://2taezeat.github.io/"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+input: GFM
 permalink: /:categories/:year/:month/:day/:title/
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 paginate: 10
