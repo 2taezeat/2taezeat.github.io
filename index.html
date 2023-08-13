@@ -9,9 +9,9 @@ permalink: /
         <div class="col-lg-6">
             <h4>Recent Posts</h4>
             <div class="hline"></div>
-            {% for post in site.categories['blog'] %}
+            {% for post in site.categories['blog'] limit:10 %}
             <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            <csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall>
+<!--            <csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall>-->
 
             {% endfor %}
         </div>
