@@ -51,6 +51,17 @@ layout: default
         </div><!--/col-lg-8 -->
 
 
+        <div class="col-lg-4">
+            <h4>Currnte Pages Categories</h4>
+            <div class="hline"></div>
+            <p>
+                {% for category in page.categories %}
+                <a class="btn btn-theme" href="{{ '/categories/#'  | prepend: site.baseurl  }}{{ tag }}" role="button">{{ category }}</a>
+                {% endfor %}
+            </p>
+        </div>
+
+
         {% include sidebar.html %}
 
     </div><!--/row -->
