@@ -10,15 +10,8 @@ permalink: /
             <h4>Recent Posts</h4>
             <div class="hline"></div>
             {% for post in site.categories['blog'] limit:10 %}
-
-
-            <li>
-                <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-                <em>Posted on {{ post.date | date_to_string }}</em>
-            </li>
-
-<!--            <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>-->
-<!--            <em>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</em>-->
+            <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            <csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall>
 
             {% endfor %}
         </div>
