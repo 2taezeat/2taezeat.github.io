@@ -35,9 +35,7 @@ colors:  #in hex code if not noted else
 ### CONTACT SETTINGS ###
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
-social:
-  - title: github
-    url: "https://github.com/2taezeat"
+
 
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
@@ -55,7 +53,9 @@ about: "hello"
 # Testimonial content. Shown on Home and About page.
 #testimonial:
 #    message: "Hi there ~"
-
+social:
+  - title: github
+    url: "https://github.com/2taezeat"
 
 
 plugins: [jekyll-paginate]
