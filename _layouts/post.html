@@ -59,8 +59,7 @@ layout: default
             <h4>Currnte Pages Categories</h4>
             <div class="hline"></div>
             <p>
-                {% for category in page.categories %}{% unless category.first == "blog" or category.first == "project"
-                or category.first == "question" %}
+                {% for category in page.categories %}{% unless category == "blog" %}
                 <a class="btn btn-theme" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ tag }}" role="button">{{
                     category }}</a>
                 {% endunless %}{% endfor %}
