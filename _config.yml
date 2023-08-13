@@ -52,5 +52,5 @@ social:
 
 
 # Testimonial content. Shown on Home and About page.
-testimonial:
-    message: "안녕하세요"
+#testimonial:
+#    message: "Hi there ~"
