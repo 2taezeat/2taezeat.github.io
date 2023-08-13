@@ -13,13 +13,15 @@ layout: default
             <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
             {% endif %}
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
-            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By:
-                {% if page.author %}
-                {{ page.author }}
-                {% else %}
-                {{ site.author.name }}
-                {% endif %}
-            </csmall></p>
+            <p>
+                <csmall>{{ page.date | date: "%b %-d, %Y" }}. | By:
+                    {% if page.author %}
+                    {{ page.author }}
+                    {% else %}
+                    {{ site.author.name }}
+                    {% endif %}
+                </csmall>
+            </p>
 
             {{ content }}
 
@@ -28,13 +30,15 @@ layout: default
             <p>
             <ul class="pagination">
                 {% if page.previous %}
-                <li class="prev"><a href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
+                <li class="prev"><a href="{{ page.previous.url | prepend: site.baseurl }}"
+                                    title="{{ page.previous.title }}">&laquo; Previous</a></li>
                 {% else %}
                 <li class="prev disabled"><a>&larr; Previous</a></li>
                 {% endif %}
                 <li><a href="{{"/blog/" | prepend: site.baseurl }}">Blog</a></li>
                 {% if page.next %}
-                <li class="next"><a href="{{ page.next.url | prepend: site.baseurl }}" title="{{ page.next.title }}">Next &raquo;</a></li>
+                <li class="next"><a href="{{ page.next.url | prepend: site.baseurl }}" title="{{ page.next.title }}">Next
+                    &raquo;</a></li>
                 {% else %}
                 <li class="next disabled"><a>Next &rarr;</a>
                     {% endif %}
@@ -55,9 +59,11 @@ layout: default
             <h4>Currnte Pages Categories</h4>
             <div class="hline"></div>
             <p>
-                {% for category in page.categories %}
-                <a class="btn btn-theme" href="{{ '/categories/#'  | prepend: site.baseurl  }}{{ tag }}" role="button">{{ category }}</a>
-                {% endfor %}
+                {% for category in page.categories %}{% unless category.first == "blog" or category.first == "project"
+                or category.first == "question" %}
+                <a class="btn btn-theme" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ tag }}" role="button">{{
+                    category }}</a>
+                {% endunless %}{% endfor %}
             </p>
         </div>
 
