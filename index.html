@@ -7,10 +7,12 @@ permalink: /
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-6">
-            <h4>Latest Posts</h4>
+            <h4>Recent Posts</h4>
             <div class="hline"></div>
             {% for post in site.categories['blog'] limit:10 %}
             <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+
             {% endfor %}
         </div>
 
