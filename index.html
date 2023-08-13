@@ -11,7 +11,7 @@ permalink: /
             <div class="hline"></div>
             {% for post in site.categories['blog'] limit:10 %}
             <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            <small>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</small>
+            <em>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</em>
 
             {% endfor %}
         </div>
