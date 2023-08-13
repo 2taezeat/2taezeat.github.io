@@ -83,10 +83,7 @@
 .highlight .nf, .highlight .fm {
   color: #8250df;
 }
-.highlight .err {
-  color: #f6f8fa;
-  background-color: #82071e;
-}
+
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cp, .highlight .cpf, .highlight .c1, .highlight .cs {
   color: #6e7781;
 }
@@ -110,3 +107,9 @@
   color: #24292f;
   font-weight: bold;
 }
+
+
+/*.highlight .err {*/
+/*  color: #f6f8fa;*/
+/*  background-color: #071b82;*/
+/*}*/
