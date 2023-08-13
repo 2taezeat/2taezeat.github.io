@@ -697,7 +697,7 @@ samp {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #15455b;
+  color: #3917d3;
   white-space: nowrap;
   background-color: #d9e5ec;
   border-radius: 4px;
@@ -741,9 +741,9 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 268px) {
   .container {
-    width: 750px;
+    width: 250px;
   }
 }
 @media (min-width: 992px) {
@@ -751,9 +751,9 @@ pre code {
     width: 970px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 2000px) {
   .container {
-    width: 1170px;
+    width: 2070px;
   }
 }
 .container-fluid {
@@ -1273,7 +1273,8 @@ pre code {
     width: 41.66666667%;
   }
   .col-lg-4 {
-    width: 33.33333333%;
+    width: 18.33333333%;
+    float:right;
   }
   .col-lg-3 {
     width: 25%;

@@ -6,6 +6,7 @@ author: Admin
 categories: 
 - blog
 - b3
+toc: true
 ---
 hello123123
 <!--more-->
