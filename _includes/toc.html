@@ -79,7 +79,7 @@
     {% assign currLevel = 0 %}
     {% assign lastLevel = 0 %}
 
-    {% capture listModifier %}{% if orderedList %}ol{% else %}ul{% endif %}{% endcapture %}
+    {% capture listModifier %}{% if orderedList %}ol{% else %}ul id="toc" class="section-nav"{% endif %}{% endcapture %}
 
     {% for node in nodes %}
         {% if node == "" %}
