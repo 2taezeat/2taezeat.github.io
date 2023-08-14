@@ -144,15 +144,15 @@
             {% assign repeatCount = lastLevel | minus: currLevel %}
 
             {% for i in (1..repeatCount) %}
-                {% capture jekyll_toc %}{{ jekyll_toc }}</li></{{ listModifier }}>{% endcapture %}
+                {% capture jekyll_toc %}{{ jekyll_toc }}</toc-entry></{{ listModifier }}>{% endcapture %}
             {% endfor %}
 
-            {% capture jekyll_toc %}{{ jekyll_toc }}</li>{% endcapture %}
+            {% capture jekyll_toc %}{{ jekyll_toc }}</toc-entry>{% endcapture %}
         {% else %}
-            {% capture jekyll_toc %}{{ jekyll_toc }}</li>{% endcapture %}
+            {% capture jekyll_toc %}{{ jekyll_toc }}</toc-entry>{% endcapture %}
         {% endif %}
 
-        {% capture jekyll_toc %}{{ jekyll_toc }}<li{{ listItemClass }}>{{ listItem }}{% endcapture %}
+        {% capture jekyll_toc %}{{ jekyll_toc }}<toc-entry{{ listItemClass }}>{{ listItem }}{% endcapture %}
 
         {% assign lastLevel = currLevel %}
         {% assign firstHeader = false %}
@@ -161,7 +161,7 @@
     {% assign repeatCount = minHeader | minus: 1 %}
     {% assign repeatCount = lastLevel | minus: repeatCount %}
     {% for i in (1..repeatCount) %}
-        {% capture jekyll_toc %}{{ jekyll_toc }}</li></{{ listModifier }}>{% endcapture %}
+        {% capture jekyll_toc %}{{ jekyll_toc }}</toc-entry></{{ listModifier }}>{% endcapture %}
     {% endfor %}
 
     {% if jekyll_toc != '' %}
