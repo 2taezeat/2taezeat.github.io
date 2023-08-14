@@ -62,11 +62,11 @@ social:
 
 timezone: Asia/Seoul
 
-google_site_verification: YaEERzgrvu-ZwPg7gswZdTzRMufkHw3uIH7i8hVal1c
 
 
 plugins:
   - jekyll-paginate
   - jekyll-toc
+  - jekyll-sitemap
 
 
