@@ -518,6 +518,11 @@ a.anchor{
     visibility: hidden;
 }
 
+.mi {
+	margin-left: -20px;
+
+}
+
 
 .sidebar__right {
 	display: block;
