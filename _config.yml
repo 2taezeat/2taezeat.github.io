@@ -67,6 +67,5 @@ timezone: Asia/Seoul
 plugins:
   - jekyll-paginate
   - jekyll-toc
-  - jekyll-sitemap
 
 
