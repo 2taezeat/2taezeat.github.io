@@ -25,7 +25,6 @@ layout: default
                 </csmall>
             </p>
 
-            {% include toc.html html=content %}
 
             {{ content }}
 
@@ -82,7 +81,7 @@ layout: default
             <h4>Table of Contents</h4>
             <div class="hline">
             </div>
-            {{ content | toc_only }}
+            {% include toc.html html=content %}
 
         </div>
 
