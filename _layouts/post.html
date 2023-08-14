@@ -26,7 +26,7 @@ layout: default
             </p>
 
 
-            {{ content | toc }}
+            {{ content }}
 
             <div class="spacing"></div>
 
@@ -73,6 +73,15 @@ layout: default
                     category }}</a>
                 {% endunless %}{% endfor %}
             </p>
+        </div>
+
+
+        <div class="col-lg-4">
+            <h4>Table of Contents</h4>
+            <div class="hline">
+            </div>
+            {{ content | toc_only }}
+
         </div>
 
 

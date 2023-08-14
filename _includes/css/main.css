@@ -551,3 +551,7 @@ li {
 	padding: 0px 10px;
 }
 }
+
+.toc-entry {
+	margin-left: -20px;
+}
