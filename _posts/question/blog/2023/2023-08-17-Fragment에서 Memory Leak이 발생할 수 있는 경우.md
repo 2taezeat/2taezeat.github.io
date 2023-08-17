@@ -77,7 +77,8 @@ void performStart () { // 예시 performStart() 함수, mLifecycleRegistry, mVie
 ```
 
 # RecyclerView 구조
-{% include img_assets.html id="/blog/2023/08-17/fragment_structure.png %}
+{% include img_assets.html id="/blog/2023/08-17/fragment_structure.png" %}
+
 
 `RecyclerView.java` 내부를 보면, `Adapter`는 `mObservable`을 가지고 있고, Observer들은 `RecyclerView`를 참조한다.
 또한 `RecyclerView`는 `Adapter`를 참조하기에,
