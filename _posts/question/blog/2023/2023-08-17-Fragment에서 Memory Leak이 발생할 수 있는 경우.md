@@ -5,7 +5,6 @@ date: 2023-08-17 16:54:46+0900
 author: 2taezeat
 toc: true
 categories:
-
 - blog
 - Android
 
@@ -13,10 +12,6 @@ categories:
 Fragment에서 Memory Leak이 발생할 수 있는 경우에 대해 알아보자.
 <!--more-->
 
-# Intro
-
-- Fragment를 사용해본 사람
-- RecyclerView를 사용해본 사람
 
 > Library 기준
 >
@@ -37,10 +32,11 @@ Fragment에서 Memory Leak이 발생할 수 있는 경우에 대해 알아보자
 ![img.png](../../image/fragmentLifecycle.png)
 
 ```kotlin
+//Fragment.java
+
 private void initLifecycle() {
     mLifecycleRegistry = new LifecycleRegistry (this);
     // ...
-
 }
 
 // ... 
@@ -57,7 +53,6 @@ public LifecycleOwner getViewLifecycleOwner() {
 public Lifecycle getLifecycle() {
     return mLifecycleRegistry;
 }
-
 ```
 
 
@@ -90,6 +85,8 @@ void performStart () { // 예시 performStart() 함수, mLifecycleRegistry, mVie
 `Adatper`와 `RecyclerView`는 `양방향 참조, cycle`이 생긴다.
 
 ```kotlin
+// RecyclerView.java
+
 public class RecyclerView extends ViewGroup implements ScrollingView,
 NestedScrollingChild2, NestedScrollingChild3 {
     //...
@@ -115,7 +112,6 @@ static class AdapterDataObservable extends Observable<AdapterDataObserver> {
 }
 
 ```
-
 
 
 # Memory Leak 발생 가능성
@@ -147,9 +143,11 @@ class A_Fragment : Fragment() {
 `LeakCanary` 을 통해 확인한 Memory Leak 상태
 ![img.png](../../image/memoryLeak.png)
 
+{% include img_assets.html id="/blog/memoryLeak.png" %}
+
 
 # 해결 방법
-`Adatper`와 `RecyclerView`의 `양방향 참조` 를 onDestoryView()시에 해제
+`Adatper`와 `RecyclerView`의 `양방향 참조` 를 `onDestoryView()`시에 해제
 
 1. mockAdapter 를 nullable 하게 설정
 2. `onDestoryView()` 호출시 `mockAdapter = null`
