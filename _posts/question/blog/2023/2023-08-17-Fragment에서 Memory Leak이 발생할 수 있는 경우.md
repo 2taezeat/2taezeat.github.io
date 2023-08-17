@@ -13,7 +13,7 @@ Fragment에서 Memory Leak이 발생할 수 있는 경우에 대해 알아보자
 <!--more-->
 
 
-> Library 기준
+> **Library 기준**
 >
 > androidx.fragment:fragment-ktx:1.5.7
 >
@@ -77,6 +77,8 @@ void performStart () { // 예시 performStart() 함수, mLifecycleRegistry, mVie
 ```
 
 # RecyclerView 구조
+{% include img_assets.html id="/blog/2023/08-17/fragment 구조.png %}
+
 `RecyclerView.java` 내부를 보면, `Adapter`는 `mObservable`을 가지고 있고, Observer들은 `RecyclerView`를 참조한다.
 또한 `RecyclerView`는 `Adapter`를 참조하기에,
 `Adatper`와 `RecyclerView`는 `양방향 참조, cycle`이 생긴다.
@@ -137,7 +139,7 @@ class A_Fragment : Fragment() {
 
 ```
 
-`LeakCanary` 을 통해 확인한 Memory Leak 상태
+`LeakCanary` 을 통해 확인한 `Memory Leak` 상태
 
 {% include img_assets.html id="/blog/2023/08-17/memoryLeak.png" %}
 
@@ -184,5 +186,5 @@ class A_Fragment : Fragment() {
 
 # Reference
 
-- https://charlesmuchene.com/a-subtle-memory-leak-fragment-recyclerview-and-its-adapter
-- https://pluu.github.io/blog/android/2020/01/25/android-fragment-lifecycle/
+- [https://charlesmuchene.com/a-subtle-memory-leak-fragment-recyclerview-and-its-adapter](https://charlesmuchene.com/a-subtle-memory-leak-fragment-recyclerview-and-its-adapter).
+- [https://pluu.github.io/blog/android/2020/01/25/android-fragment-lifecycle/](https://pluu.github.io/blog/android/2020/01/25/android-fragment-lifecycle/).
