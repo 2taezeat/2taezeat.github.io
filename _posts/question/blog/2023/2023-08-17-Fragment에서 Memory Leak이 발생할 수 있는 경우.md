@@ -27,7 +27,8 @@ Fragment에서 Memory Leak이 발생할 수 있는 경우에 대해 알아보자
 
 
 
-![img.png](../../image/fragmentLifecycle.png)
+{% include img_assets.html id="/blog/2023/08-17/fragmentLifecycle.png" %}
+
 
 ```kotlin
 //Fragment.java
@@ -138,7 +139,7 @@ class A_Fragment : Fragment() {
 
 `LeakCanary` 을 통해 확인한 Memory Leak 상태
 
-{% include img_assets.html id="/blog/memoryLeak.png" %}
+{% include img_assets.html id="/blog/2023/08-17/memoryLeak.png" %}
 
 
 # 해결 방법
