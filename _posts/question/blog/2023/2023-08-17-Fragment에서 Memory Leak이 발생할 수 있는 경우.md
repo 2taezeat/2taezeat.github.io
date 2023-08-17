@@ -22,9 +22,7 @@ Fragment에서 Memory Leak이 발생할 수 있는 경우에 대해 알아보자
 # Fragment Lifecycle
 
 `Fragment.java` 파일과 공식 문서 를 보면 알 수 있듯이, Fragment는 `mLifecycleRegistry` 와 `mViewLifecycleOwner` 두 개의 Lifecycle를 가지고 있다.
-
 `Fragment 생명주기`를 View lifecycle 과 Fragment 자체 lifecycle로 분리해서 바라보면, callback 함수명에서 알 수 있듯이,
-
 `onDestoryView()` 호출로 Fragment의 View는 사라지고, Fragment는 `onDetach()` 호출 전과 `onDestoryView()` 호출 후에 `onDestory()` 가 호출되어 사라진다.
 
 
@@ -79,9 +77,7 @@ void performStart () { // 예시 performStart() 함수, mLifecycleRegistry, mVie
 
 # RecyclerView 구조
 `RecyclerView.java` 내부를 보면, `Adapter`는 `mObservable`을 가지고 있고, Observer들은 `RecyclerView`를 참조한다.
-
-또한 `RecyclerView`는 `Adapter`를 참조하기에,  
-
+또한 `RecyclerView`는 `Adapter`를 참조하기에,
 `Adatper`와 `RecyclerView`는 `양방향 참조, cycle`이 생긴다.
 
 ```kotlin
@@ -141,13 +137,12 @@ class A_Fragment : Fragment() {
 ```
 
 `LeakCanary` 을 통해 확인한 Memory Leak 상태
-![img.png](../../image/memoryLeak.png)
 
 {% include img_assets.html id="/blog/memoryLeak.png" %}
 
 
 # 해결 방법
-`Adatper`와 `RecyclerView`의 `양방향 참조` 를 `onDestoryView()`시에 해제
+**`Adatper`와 `RecyclerView`의 `양방향 참조` 를 `onDestoryView()`시에 해제**
 
 1. mockAdapter 를 nullable 하게 설정
 2. `onDestoryView()` 호출시 `mockAdapter = null`
