@@ -27,7 +27,7 @@ Fragment에서 Memory Leak이 발생할 수 있는 경우에 대해 알아보자
 
 
 
-{% include img_assets.html id="/blog/2023/08-17/fragmentLifecycle.png" %}
+{% include img_assets_800.html id="/blog/2023/08-17/fragmentLifecycle.png" %}
 
 
 ```kotlin
@@ -76,7 +76,7 @@ void performStart () { // 예시 performStart() 함수, mLifecycleRegistry, mVie
 
 ```
 
-# RecyclerView 구조
+# RecyclerView 내부 구조
 {% include img_assets_mid.html id="/blog/2023/08-17/fragment_structure.png" %}
 
 
@@ -142,7 +142,7 @@ class A_Fragment : Fragment() {
 
 `LeakCanary` 을 통해 확인한 `Memory Leak` 상태
 
-{% include img_assets.html id="/blog/2023/08-17/memoryLeak.png" %}
+{% include img_assets_800.html id="/blog/2023/08-17/memoryLeak.png" %}
 
 
 # 해결 방법
