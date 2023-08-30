@@ -123,6 +123,8 @@ static class AdapterDataObservable extends Observable<AdapterDataObserver> {
   - `RecyclerView`가 사라질때, `mOberver` 참조로 인해 `Memory Leak` 발생
 
 >View or Data `Binding` 를 사용할때도 유사하게 `Memory Leak` 이 발생 할 수 있다.
+
+
 ```kotlin
 class A_Fragment : Fragment() {
 
