@@ -143,7 +143,7 @@ public class FragmentNavigator extends Navigator<FragmentNavigator.Destination> 
 
 ## 결론
 - `popUpTo` 속성으로 특정 Fragment를 지정하면, 그 사이의 `NavBackStackEntry`은 backStack에서 제거된다.
-- `popUpToInclusive` 속성을 `true`로 설정해주면, backStack `popUpTo`로 지정된 `NavBackStackEntry`은 제거한다.
+- `popUpToInclusive` 속성을 `true`로 설정해주면, backStack `popUpTo`로 지정된 `NavBackStackEntry`은 제거된다.
 - `popUpToInclusive` 값을 지정하지 않으면, `popUpToInclusive=false`와 같다.
 
 
