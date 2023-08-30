@@ -134,10 +134,8 @@ public class FragmentNavigator extends Navigator<FragmentNavigator.Destination> 
 
 ## case 별 backStack 현황
 - `... -> a -> b -> c` 까지, backStack 현황 = `[..., a, b, c]`
-
 - app:popUpTo="@+id/a" 가 없다면, a -> b -> **c -> a** 까지, backStack 현황 = `[..., a, b, c, a]`
 - app:popUpTo="@+id/a" 가 있다면, a -> b -> **c -> a** 까지, backStack 현황 = `[..., a, a]`
-
 - app:popUpTo="@+id/a" 있고, app:popUpToInclusive="false" 이면, a -> b -> **c -> a** 까지, backStack 현황 = `[..., a, a]`
 - app:popUpTo="@+id/a" 있고, app:popUpToInclusive="true" 이면, a -> b -> **c -> a** 까지, backStack 현황 = `[..., a]`
 
