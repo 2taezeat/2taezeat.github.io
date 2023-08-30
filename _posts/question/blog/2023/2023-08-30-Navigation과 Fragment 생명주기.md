@@ -132,7 +132,6 @@ public class FragmentNavigator extends Navigator<FragmentNavigator.Destination> 
 </fragment>
 ```
 
-
 ## case 별 backStack 현황
 - `... -> a -> b -> c` 까지, backStack 현황 = `[..., a, b, c]`
 
@@ -142,12 +141,16 @@ public class FragmentNavigator extends Navigator<FragmentNavigator.Destination> 
 - app:popUpTo="@+id/a" 있고, app:popUpToInclusive="false" 이면, a -> b -> **c -> a** 까지, backStack 현황 = `[..., a, a]`
 - app:popUpTo="@+id/a" 있고, app:popUpToInclusive="true" 이면, a -> b -> **c -> a** 까지, backStack 현황 = `[..., a]`
 
+
+
 ## 결론
 - `popUpTo` 속성으로 특정 Fragment를 지정하면, 그 사이의 `NavBackStackEntry`은 backStack에서 제거된다.
 - `popUpToInclusive` 속성을 `true`로 설정해주면, backStack `popUpTo`로 지정된 `NavBackStackEntry`은 제거한다.
 - `popUpToInclusive` 값을 지정하지 않으면, `popUpToInclusive=false`와 같다.
-# Reference
 
+
+
+# Reference
 - [https://developer.android.com/reference/android/app/FragmentTransaction#attach(android.app.Fragment)](https://developer.android.com/reference/android/app/FragmentTransaction#attach(android.app.Fragment)).
 - [https://developer.android.com/guide/navigation/navigation-navigate?hl=ko#pop](https://developer.android.com/guide/navigation/navigation-navigate?hl=ko#pop).
 - [https://velog.io/@dabin/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9CFragment-2%ED%8E%B8FragmentR#framgment-%EA%B5%90%EC%B2%B4replace%EC%9E%91%EC%97%85](https://velog.io/@dabin/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9CFragment-2%ED%8E%B8FragmentR#framgment-%EA%B5%90%EC%B2%B4replace%EC%9E%91%EC%97%85).
