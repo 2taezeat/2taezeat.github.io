@@ -146,12 +146,14 @@ class A_Fragment : Fragment() {
 
 
 # 해결 방법
+
 **`Adatper`와 `RecyclerView`의 `양방향 참조` 를 `onDestoryView()`시에 해제**
 
 1. mockAdapter 를 nullable 하게 설정
 2. `onDestoryView()` 호출시 `mockAdapter = null`
 3. B_Fragment에서 다시 A_Fragment 로 전환시, Fragment는 `onCreateView()` 부터 생명주기 다시 시작
 4. `onCreateView()` 호출시에 mockAdapter를 MockAdapeter() 로 초기화
+
 
 ```kotlin
 class A_Fragment : Fragment() {
@@ -181,7 +183,6 @@ class A_Fragment : Fragment() {
         mockAdapter = null
     }
 }
-
 ```
 
 
