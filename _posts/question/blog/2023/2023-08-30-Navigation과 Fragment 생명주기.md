@@ -22,7 +22,7 @@ Jetpack Navigation 사용시에, Fragment 생명주기 에 대해 알아보자
 
 
 # FragmentManager 를 통한 Transaction
-- **add**: 호스트 Activity의 생명주기에 Fragment 생명주기 추가 (`onAttach ~ onResume`)
+- **add**: 호스트 Activity의 생명주기에 Fragment 생명주기 추가, add된 Fragment는 `onAttach ~ onResume`까지 호출
   - _Add a fragment to the activity state._
 - **remove**: `onPause ~ onDetach`까지 호출, Fragment가 메모리에서 제거됨.
   - _Remove an existing fragment. If it was added to a container, its view is also removed from that container._
@@ -77,13 +77,13 @@ public class FragmentNavigator extends Navigator<FragmentNavigator.Destination> 
 }
 ```
 
-## **상황 설정**
+## 상황 설정
 - `bottomMenu`: GameFragment, SettingFragment
 - `action`: SettingFragment -> WebViewFragment 
 - GameFragment -> SettingFragment -> WebViewFragment ->(뒤로가기 버튼) SettingFragment 의 경우
 
 
-{% include img_assets_600.html id="/blog/2023/08-30/step1-6.png" %}
+{% include img_assets_400.html id="/blog/2023/08-30/step1-6.png" %}
 
 
 ## Logging 결과
@@ -92,21 +92,21 @@ public class FragmentNavigator extends Navigator<FragmentNavigator.Destination> 
 - A -> B로 `naviagte()` 시, B가 Create 되고, A가 Destory 됨. (선 Create, 후 Destory)
 
 ```
-13:43:37.780 18882-18882 GameFragment        D  onCreate
-13:43:37.802 18882-18882 GameFragment        D  onCreateView
-13:43:37.802 18882-18882 GameFragment        D  [com.k031.fruitcardgame:id/game_nav_graph, com.k031.fruitcardgame:id/GameFragment]
-13:43:39.586 18882-18882 SettingFragment     D  onCreate
-13:43:39.586 18882-18882 SettingFragment     D  onCreateView
-13:43:39.586 18882-18882 SettingFragment     D  [com.k031.fruitcardgame:id/game_nav_graph, com.k031.fruitcardgame:id/GameFragment, com.k031.fruitcardgame:id/SettingFragment]
-13:43:39.740 18882-18882 GameFragment        D  onDestroyView
-13:43:42.369 18882-18882 WebViewFragment     D  onCreate
-13:43:42.369 18882-18882 WebViewFragment     D  onCreateView
-13:43:42.369 18882-18882 WebViewFragment     D  [com.k031.fruitcardgame:id/game_nav_graph, com.k031.fruitcardgame:id/GameFragment, com.k031.fruitcardgame:id/SettingFragment, com.k031.fruitcardgame:id/WebViewFragment]
-13:43:42.560 18882-18882 SettingFragment     D  onDestroyView
-13:43:44.910 18882-18882 SettingFragment     D  onCreateView
-13:43:44.910 18882-18882 SettingFragment     D  [com.k031.fruitcardgame:id/game_nav_graph, com.k031.fruitcardgame:id/GameFragment, com.k031.fruitcardgame:id/SettingFragment]
-13:43:44.919 18882-18882 WebViewFragment     D  onDestroyView
-13:43:44.920 18882-18882 WebViewFragment     D  onDestroy
+13:43:37.780 GameFragment         onCreate
+13:43:37.802 GameFragment         onCreateView
+13:43:37.802 GameFragment         [com.k031.fruitcardgame:id/game_nav_graph, com.k031.fruitcardgame:id/GameFragment]
+13:43:39.586 SettingFragment      onCreate
+13:43:39.586 SettingFragment      onCreateView
+13:43:39.586 SettingFragment      [com.k031.fruitcardgame:id/game_nav_graph, com.k031.fruitcardgame:id/GameFragment, com.k031.fruitcardgame:id/SettingFragment]
+13:43:39.740 GameFragment         onDestroyView
+13:43:42.369 WebViewFragment      onCreate
+13:43:42.369 WebViewFragment      onCreateView
+13:43:42.369 WebViewFragment      [com.k031.fruitcardgame:id/game_nav_graph, com.k031.fruitcardgame:id/GameFragment, com.k031.fruitcardgame:id/SettingFragment, com.k031.fruitcardgame:id/WebViewFragment]
+13:43:42.560 SettingFragment      onDestroyView
+13:43:44.910 SettingFragment      onCreateView
+13:43:44.910 SettingFragment      [com.k031.fruitcardgame:id/game_nav_graph, com.k031.fruitcardgame:id/GameFragment, com.k031.fruitcardgame:id/SettingFragment]
+13:43:44.919 WebViewFragment      onDestroyView
+13:43:44.920 WebViewFragment      onDestroy
 ```
 
 
