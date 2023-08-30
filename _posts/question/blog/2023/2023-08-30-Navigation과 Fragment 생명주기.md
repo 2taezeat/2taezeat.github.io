@@ -78,12 +78,12 @@ public class FragmentNavigator extends Navigator<FragmentNavigator.Destination> 
 ```
 
 ## 상황 설정
-- `bottomMenu`: GameFragment, SettingFragment
-- `action`: SettingFragment -> WebViewFragment 
+- `bottomMenu`: GameFragment, SettingFragment 이고,
+- `action`: SettingFragment -> WebViewFragment 인 상황
 - GameFragment -> SettingFragment -> WebViewFragment ->(뒤로가기 버튼) SettingFragment 의 경우
 
 
-{% include img_assets_400.html id="/blog/2023/08-30/step1-6.png" %}
+{% include img_assets_400.html id="/blog/2023/08-30/bottomNavi.png" %}
 
 
 ## Logging 결과
@@ -113,7 +113,7 @@ public class FragmentNavigator extends Navigator<FragmentNavigator.Destination> 
 # navigation popup
 `a -> b -> c -> a` 로 group 연결
 
-{% include img_assets_600.html id="/blog/2023/08-30/bottomNavi.png" %}
+{% include img_assets_600.html id="/blog/2023/08-30/a_b_c_navi.png" %}
 
 
 ```xml
