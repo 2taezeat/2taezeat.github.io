@@ -77,6 +77,8 @@ public open class FragmentNavigator(
         val destination = entry.destination as Destination
         //..
         val frag = fragmentManager.fragmentFactory.instantiate(context.classLoader, className)
+        frag.arguments = args
+        val ft = fragmentManager.beginTransaction()
         //..
         ft.replace(containerId, frag)
         //..
