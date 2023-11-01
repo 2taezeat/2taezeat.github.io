@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kotlin Coroutine 기본"
+title: "Kotlin Coroutine, 기본"
 date: 2023-10-31 01:54:46+0900
 author: 2taezeat
 toc: true
@@ -28,7 +28,7 @@ Kotlin Coroutine 기본 개념을 정리 한다.
 - Context-Switch 발생
 - 시분할(time-sharing)
 - 동기화 이슈 발생
-
+- 병행성 이라고도 불림
 
 **병렬성(Parallelism)** : 여러 작업이 같은 시간에 실제로 여러 개 실행되는 상태
 - 흔히 Multi Core, Multi-Thread 환경에서 가능
@@ -116,7 +116,8 @@ fun onCreate() {
   - 하나의 Thread에서 suspend 되었다가 다른 Thread에서 resume 된다.
 - suspend 시 스레드가 blocking 되지 않는다.
 - 스레드에 비해 light-weighted(경량) 하다. 
-
+- 비선점형 방식으로 동작
+  - 실행 주체가 자신의 실행권을 자발적으로 내려 놓음 
 
 
 # Reference
