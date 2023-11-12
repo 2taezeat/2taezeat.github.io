@@ -62,29 +62,31 @@ layout: default
             </p> -->
         </div><!--/col-lg-8 -->
 
-
-        <div class="col-lg-4">
-            <h4>Current Pages Categories</h4>
-            <div class="hline"></div>
-            <p>
-                {% for category in page.categories %}{% unless category == "blog" %}
-                <a class="btn btn-theme" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ tag }}" role="button">{{
-                    category }}</a>
-                {% endunless %}{% endfor %}
-            </p>
-        </div>
-
-
-        <div class="col-lg-4">
-            <h4>Table of Contents</h4>
-            <div class="hline"></div>
-            <br></br>
-            {% include toc.html html=content %}
-
-        </div>
-
-
     </div><!--/row -->
+
+
+
+    <div class="col-lg-4">
+        <h4>Table of Contents</h4>
+        <div class="hline"></div>
+        <br></br>
+        {% include toc.html html=content %}
+
+    </div>
+
+
     {% include sidebar.html %}
 
 </div><!--/container -->
+
+
+<div class="col-lg-4">
+    <h4>Current Pages Categories</h4>
+    <div class="hline"></div>
+    <p>
+        {% for category in page.categories %}{% unless category == "blog" %}
+        <a class="btn btn-theme" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ tag }}" role="button">{{
+            category }}</a>
+        {% endunless %}{% endfor %}
+    </p>
+</div>
