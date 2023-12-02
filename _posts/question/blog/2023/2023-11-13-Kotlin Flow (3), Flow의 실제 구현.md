@@ -37,8 +37,8 @@ fun interface MyFlowCollector { // SAM 사용
 
 suspend fun main() { // SAM 사용 
     val f: MyFlow = myFlowBuilder {
-        myEmit("A")
-        myEmit("B")
+        this.myEmit("A") // this = myFlowCollector, 생략 가능
+        myEmit("B") 
     }
     f.myCollect { println(it) }
 }
@@ -50,7 +50,7 @@ interface MyFlowCollector { // SAM 미 사용
 
 suspend fun main() { // SAM 미 사용
     val f: MyFlow = myFlowBuilder {
-        myEmit("A")
+        this.myEmit("A") // this = myFlowCollector, 생략 가능
         myEmit("B")
     }
     f.myCollect(object : MyFlowCollector {
