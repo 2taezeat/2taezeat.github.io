@@ -15,9 +15,8 @@ categories:
 <!--more-->
 ---
 
-
-
 # Hot stream, Cold stream
+
 - **Hot** : `컬렉션(List, Set)` / `Channel`
 - **Cold** : `Flow`, `Sequence`, `RxJava 스트림`
 
@@ -66,7 +65,6 @@ fun main() {
 }
 ```
 
-
 ## Hot Channel, Cold Flow
 
 - Channel은 Hot 이라 값을 곧바로 계산, 소비되는 것과 상관없이 값을 생성한 뒤에 가지게 된다.
@@ -79,7 +77,6 @@ fun main() {
     - 따라서, **flow 빌더**는 `CoroutineScope` 가 필요하지 않는다.
     - **flow 빌더**는 빌더를 호출한 `최종 연산`의 스코프에서 실행된다.
     - 플로우의 각 최종 연산은 처음부터 데이터를 처리하기 시작한다.
-
 
 ```kotlin
 private fun CoroutineScope.makeChannel() = produce {
@@ -150,7 +147,6 @@ suspend fun main() = coroutineScope {
 // (1 sec)
 // 3
 ```
-
 
 # Reference
 
