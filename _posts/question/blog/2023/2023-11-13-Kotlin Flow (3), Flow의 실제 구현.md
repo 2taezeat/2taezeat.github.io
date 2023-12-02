@@ -21,29 +21,45 @@ categories:
     - 중단 가능한 람다식에 몇 가지 요소를 추가하였다.
 
 ```kotlin
-fun interface MyFlowCollector {
-    suspend fun myEmit(value: String)
-}
-
 interface MyFlow {
     suspend fun myCollect(collector: MyFlowCollector)
 }
 
-fun myFlowBuilder(builder: suspend MyFlowCollector.() -> Unit) = object : MyFlow {
+fun myFlowBuilder(actionBlock: suspend MyFlowCollector.() -> Unit) = object : MyFlow {
     override suspend fun myCollect(collector: MyFlowCollector) {
-        collector.builder()
+        collector.actionBlock()
     }
 }
 
-suspend fun main() {
+fun interface MyFlowCollector { // SAM 사용 
+    suspend fun myEmit(value: String)
+}
+
+suspend fun main() { // SAM 사용 
     val f: MyFlow = myFlowBuilder {
         myEmit("A")
         myEmit("B")
-        myEmit("C")
     }
     f.myCollect { println(it) }
-    f.myCollect { println(it) }
 }
+
+///////////////////////////////////////////////////////
+interface MyFlowCollector { // SAM 미 사용
+    suspend fun myEmit(value: String)
+}
+
+suspend fun main() { // SAM 미 사용
+    val f: MyFlow = myFlowBuilder {
+        myEmit("A")
+        myEmit("B")
+    }
+    f.myCollect(object : MyFlowCollector {
+        override suspend fun myEmit(value: String) {
+            println(value)
+        }
+    })
+}
+
 ```
 
 - **collect**를 호출하면, **flow 빌더**를 호출 할 때 넣은 **람다식**이 실행된다.
@@ -84,7 +100,7 @@ suspend fun main() {
 ## 동기로 작동하는 Flow
 
 - 플로우 또한 `중단 함수` 처럼 **동기**로 작동한다.
-    - 플로우가 완료될 때까지 collect 호출이 중단(suspend) 된다.
+    - 플로우가 완료될 때까지 **collect** 호출이 **중단(suspend)** 된다.
     - 즉, 플로우는 새로운 코루틴을 시작하지 않는다.
     - `중단 함수`가 코루틴을 시작할 수 있는 것처럼, 플로우의 각 단계에서도 코루틴을 시작할 수 있지만 중단 함수의 기본 동작은 아니다.
 - 플로우의 각각의 처리 단계는 **동기**로 실행되기 때문에, onEach 내부에 delay가 있으면 모든 원소가 처리되기 전이 아닌 원소 사이에 지연이 생긴다.
