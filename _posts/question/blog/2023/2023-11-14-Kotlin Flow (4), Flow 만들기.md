@@ -26,7 +26,7 @@ categories:
 ## 컨버터
 
 - `asFlow` 함수를 사용해서 `Iterable, Iterator, Sequence`를 Flow로 바꿀 수 있다.
-    - `asFlow` 함수는 즉시 사용 가능한 원소들의 플로우를 만듭니다.
+    - `asFlow` 함수는 즉시 사용 가능한 원소들의 플로우를 만든다.
     - 플로우 처리 함수를 사용해 처리 가능한 원소들의 플로우를 시작할때 유용하다.
 
 ```kotlin
@@ -76,9 +76,9 @@ suspend fun main() {
 ## 플로우 빌더
 
 - 플로우를 만들 때 가장 많이 사용되는 방법인 `flow 빌더`는 **시퀀스**를 만드는 `sequence 빌더`나 **채널**을 만드는 `produce 빌더`와 비슷하게 작동한다.
-    - 빌더는 `flow 함수`를 호출하고, 람다식 내부에서 **emit** 함수를 사용해 다음 값을 방출합니다.
+    - 빌더는 `flow 함수`를 호출하고, 람다식 내부에서 **emit** 함수를 사용해 다음 값을 방출한다.
     - Channel이나 Flow에서 모든 값을 방출하려면 **emitAll** 를 사용할 수 있다.
-        - `emitAll(flow)` 는 `flow.collect { emit(it) } `과 같다.
+        - `emitAll(flow)` 는 `flow.collect { emit(it) }`과 같다.
 
 ```kotlin
 fun allUsersFlow(
@@ -121,18 +121,18 @@ fun interface FlowCollector<in T> {
     suspend fun emit(value: T)
 }
 
-fun main() = runBlocking {
-    flow {
+fun main() = runBlocking { // 예저
+    flow { // 1
         emit("A")
         emit("B")
-    }.collect { value -> println(value) }
+    }.collect { value -> println(value) // 2 }
 }
 // A
 // B
 ```
 
-- `flow 빌더`를 호출하면 단지 객체를 만들 뿐입니다.
-- 반면 **collect**를 호출하면 `collector 인터페이스`의 **block 함수**를 호출하게 된다. (예제에서 1에서 정의된 람다식)
+- `flow 빌더`를 호출하면 단지 객체를 만들 뿐이다.
+- 반면 **collect**를 호출하면 `collector 인터페이스`의 **block 함수**를 호출하게 된다. (예제 1에서 정의된 람다식)
 - 리시버는 2에서 정의된 람다식인 **collect** 이다.
 - `FlowCollector` 와 같이 `fun interface` 으로 정의하면, `람다식의 본체`는 `함수형 인터페이스의 함수 본체`로 사용된다. (여기서는 emit)
 - 그러므로 emit 함수의 본체는 _println(value)_ 가 된다.
