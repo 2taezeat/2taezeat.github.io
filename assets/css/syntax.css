@@ -86,6 +86,7 @@
 
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cp, .highlight .cpf, .highlight .c1, .highlight .cs {
   color: #6e7781;
+  font-style: italic;
 }
 .highlight .gl {
   color: #6e7781;
