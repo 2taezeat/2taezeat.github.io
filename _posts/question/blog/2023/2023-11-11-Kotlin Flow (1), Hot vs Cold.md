@@ -11,7 +11,7 @@ categories:
 - Flow
 
 ---
-**Hot vs Cold 데이터 스트림에 대해 알아 본다.**
+**Hot vs Cold 데이터 스트림에 대해 알아 보자.**
 <!--more-->
 ---
 
