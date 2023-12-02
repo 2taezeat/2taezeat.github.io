@@ -11,10 +11,10 @@ categories:
 - Flow
 
 ---
-Hot vs Cold 데이터 스트림에 대해 알아 본다.
-
-예상 독자: Kotlin Coroutine 을 사용해보고, 비동기 프로그래밍을 해본 사람
+**Hot vs Cold 데이터 스트림에 대해 알아 본다.**
 <!--more-->
+---
+
 
 
 # Hot stream, Cold stream

@@ -9,8 +9,9 @@ categories:
 - Android
 
 ---
-Fragment에서 Memory Leak이 발생할 수 있는 경우에 대해 알아보자.
+**Fragment에서 Memory Leak이 발생할 수 있는 경우에 대해 알아보자.**
 <!--more-->
+---
 
 
 > **Library 기준**

@@ -10,8 +10,9 @@ categories:
 - Android
 
 ---
-Jetpack Navigation 사용시에, Fragment 생명주기 에 대해 알아보자
+**Jetpack Navigation 사용시에, Fragment 생명주기 에 대해 알아보자**
 <!--more-->
+---
 
 > **Library 기준**
 >

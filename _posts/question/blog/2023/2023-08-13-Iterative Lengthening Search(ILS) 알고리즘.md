@@ -9,8 +9,9 @@ categories:
 - Algorithm
 
 ---
-Iterative Lengthening Search(ILS) 알고리즘
+**Iterative Lengthening Search(ILS) 알고리즘**
 <!--more-->
+---
 
 ### Intro
 `Uniform Cost Search` 알고리즘과 동일한 결과를 얻을 수 있도록, `Iterative deepening` 원리를 적용하여,

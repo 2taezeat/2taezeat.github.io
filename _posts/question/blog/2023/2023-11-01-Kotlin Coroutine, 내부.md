@@ -11,10 +11,10 @@ categories:
 - Coroutine
 
 ---
-Kotlin Coroutine 내부 동작을 정리 한다.
+**Kotlin Coroutine 내부 동작을 정리 한다.**
 
-예상 독자: Kotlin Coroutine 을 사용해보고, 비동기 프로그래밍을 해본 사람
 <!--more-->
+---
 
 # 
 

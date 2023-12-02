@@ -9,7 +9,8 @@ categories:
 - PS
 
 ---
-Programmers_2020 Kakao Intern_경주로 건설
+**Programmers_2020 Kakao Intern_경주로 건설 풀이**
+---
 <!--more-->
 
 ### 문제 출처
