@@ -121,7 +121,7 @@ fun interface FlowCollector<in T> {
     suspend fun emit(value: T)
 }
 
-fun main() = runBlocking { // 예저
+fun main() = runBlocking { // 예제
     flow { // 1
         this.emit("A") // this는 FlowCollector 이다, this 생략 가능
         emit("B")
@@ -132,7 +132,7 @@ fun main() = runBlocking { // 예저
 ```
 
 - `flow 빌더`를 호출하면 단지 객체를 만들 뿐이다.
-- 반면 **collect**를 호출하면 `collector 인터페이스`의 **block 함수**를 호출하게 된다. (예제 1에서 정의된 람다식)
+- 반면 **collect**를 호출하면 `collector 인터페이스`의 **block 함수**를 호출하게 된다. (예제의 1에 정의된 람다식)
 - 리시버는 2에서 정의된 람다식인 **collect** 이다.
 - `FlowCollector` 와 같이 `fun interface` 으로 정의하면, `람다식의 본체`는 `함수형 인터페이스의 함수 본체`로 사용된다. (여기서는 emit)
 - 그러므로 emit 함수의 본체는 _println(value)_ 가 된다.
