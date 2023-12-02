@@ -123,7 +123,7 @@ fun interface FlowCollector<in T> {
 
 fun main() = runBlocking { // 예저
     flow { // 1
-        emit("A")
+        this.emit("A") // this는 FlowCollector 이다, this 생략 가능
         emit("B")
     }.collect { value -> println(value) // 2 }
 }
