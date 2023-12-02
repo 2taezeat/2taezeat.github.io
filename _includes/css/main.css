@@ -57,9 +57,9 @@ img {
 
 ul {
     margin-left: 0;
-    padding-left: 40px;
+    padding-left: 24px;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 40px;
 
 }
 
@@ -535,7 +535,6 @@ ul {
 }
 li {
     padding: 0px 10px;
-    margin-bottom: 40px;
 }
 }
 
