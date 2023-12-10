@@ -46,7 +46,7 @@ categories:
 
 ```toml
 [versions]
-timber = "5.0.1"
+timber = "5.0.1" #23.12.10 기준 최신 버전
 
 [libraries]
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
