@@ -29,6 +29,7 @@ categories:
     - 그 외에 logging 하는 방법은 기존 `Logcat` 과 동일하다. `Log.d( , )` -> `Timber.d()`
 
 <img width="452" alt="스크린샷 2023-12-10 13 14 31" src="https://github.com/2taezeat/imageRepo/assets/59787852/3b59be5a-04be-47ed-b9ba-178da5c62a06">
+
 <img width="598" alt="스크린샷 2023-12-10 13 14 19" src="https://github.com/2taezeat/imageRepo/assets/59787852/58f200a8-d717-44c4-a0b3-6c2f5a4e97a0">
 
 # 세팅
