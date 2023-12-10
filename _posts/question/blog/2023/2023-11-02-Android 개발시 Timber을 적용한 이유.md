@@ -10,19 +10,19 @@ categories:
 - Android
 
 ---
-**Android 개발시 Timber을 적용한 이유 **
+**Android 개발시 Timber을 적용한 이유**
 <!--more-->
 ---
 
 # 개요
 
 - Android 개발시 logging 에는 `Logcat` 을 기본으로 사용한다.
-    - https://developer.android.com/studio/debug/am-logcat?hl=ko
+    - [https://developer.android.com/studio/debug/am-logcat?hl=ko](https://developer.android.com/studio/debug/am-logcat?hl=ko)
 
 - `println` 으로도 logging 을 할 수 있지만, 단순 logcat 창에 출력 되는 기능외에만 사용할 수 있다.
 
 - `logger` 라는 library 도 있지만, 2018.03 월 release 이후, update가 되지 않고 있다.
-    - https://github.com/orhanobut/logger
+    - [https://github.com/orhanobut/logger](https://github.com/orhanobut/logger)
     - `logger` 는 더 pretty 하게 log 출력이 가능하지만, `timber`에 비해 좀 더 무겁다.
 
 - `timber` 라는 libarary 를 사용하면, 커스텀도 가능하고, `Logcat`에 작성해야 하는 "TAG" 도 굳이 작성하지 않아도 자동으로 어느 파일에서 log가 남는지 알 수 있다.
@@ -33,7 +33,7 @@ categories:
 
 # 세팅
 
-- gradle KTS 을 사용한다고 가정
+- `gradle KTS` 을 사용한다고 가정
 - `Version Catalog` 를 사용한다고 가정
 
 `libs.versions.toml`
@@ -129,7 +129,7 @@ class ReleaseTree : @NotNull Timber.Tree() {
 - **Lightweight**
     - 이미 존재하는 log utility 을 wrapper 한 library 여서 app 용량에 부담을 주지 않는다.
     - 참고 : timber version 5.0.0 부터 timber 코드가 java 가 아닌 kotlin 으로 변경되었다.
-        - https://github.com/JakeWharton/timber/blob/trunk/CHANGELOG.md
+        - [https://github.com/JakeWharton/timber/blob/trunk/CHANGELOG.md](https://github.com/JakeWharton/timber/blob/trunk/CHANGELOG.md)
 
 - 주기적으로 업데이트 되는 open-source
     - 2021.08.13 에 5.0.1 버전이 release 되었다.
@@ -165,5 +165,5 @@ override fun d(message: String?, vararg args: Any?) {
 
 # Reference
 
-- https://github.com/JakeWharton/timber
-- https://medium.com/free-code-camp/how-to-log-more-efficiently-with-timber-a3f41b193940
+- [https://github.com/JakeWharton/timber](https://github.com/JakeWharton/timber)
+- [https://medium.com/free-code-camp/how-to-log-more-efficiently-with-timber-a3f41b193940](https://medium.com/free-code-camp/how-to-log-more-efficiently-with-timber-a3f41b193940)
