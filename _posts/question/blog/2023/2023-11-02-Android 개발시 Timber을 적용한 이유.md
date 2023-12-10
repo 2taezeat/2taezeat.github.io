@@ -13,13 +13,7 @@ categories:
 **Android 개발시 Timber을 적용한 이유**
 <!--more-->
 ---
-- [개요](#개요)
-- [세팅](#세팅)
-- [Custom logging with timber](#custom-logging-with-timber)
-- [장점](#장점)
-- [참고 사항](#참고-사항)
-- [Reference](#reference)
----
+
 # 개요
 
 - Android 개발시 logging 에는 `Logcat` 을 기본으로 사용한다.
