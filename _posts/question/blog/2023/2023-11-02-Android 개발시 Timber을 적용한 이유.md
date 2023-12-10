@@ -25,7 +25,7 @@ categories:
 - Android 개발시 logging 에는 `Logcat` 을 기본으로 사용한다.
     - [https://developer.android.com/studio/debug/am-logcat?hl=ko](https://developer.android.com/studio/debug/am-logcat?hl=ko)
 
-- `println` 으로도 logging 을 할 수 있지만, 단순 logcat 창에 출력 되는 기능외에만 가능하다.
+- `println` 으로도 logging 을 할 수 있지만, 단순 logcat 창에 출력 되는 기능만 가능하다.
 
 - `logger` 라는 library 도 있지만, 2018.03 월 release 이후, update가 되지 않고 있다.
     - [https://github.com/orhanobut/logger](https://github.com/orhanobut/logger)
