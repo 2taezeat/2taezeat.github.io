@@ -13,7 +13,13 @@ categories:
 **Android 개발시 Timber을 적용한 이유**
 <!--more-->
 ---
-
+- [개요](#개요)
+- [세팅](#세팅)
+- [Custom logging with timber](#custom-logging-with-timber)
+- [장점](#장점)
+- [참고 사항](#참고-사항)
+- [Reference](#reference)
+---
 # 개요
 
 - Android 개발시 logging 에는 `Logcat` 을 기본으로 사용한다.
@@ -133,7 +139,7 @@ class ReleaseTree : @NotNull Timber.Tree() {
 
 - **주기적으로 업데이트 되는 open-source**
     - 2021.08.13 에 5.0.1 버전이 release 되었다.
-    - 다른 logging 라이브러리(ex.logger)에 비해 비교적 최근 까지 업데이트 된다.
+    - 다른 logging 라이브러리(ex.`logger`)에 비해 비교적 최근 까지 업데이트 된다.
 
 # 참고 사항
 
