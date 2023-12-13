@@ -26,7 +26,7 @@ categories:
   - `logger` 는 더 pretty 하게 log 출력이 가능하지만, `timber`에 비해 좀 더 무겁다.
 
 - `timber` 라는 libarary 를 사용하면, 커스텀도 가능하고, `Logcat`에 작성해야 하는 "TAG" 도 굳이 작성하지 않아도 자동으로 어느 파일에서 log가 남는지 알 수 있다.
-  - `OkHttp`의 `HttpLoggingInterceptor` 에도 **timber**를 추가하여, Custom도 가능하다.
+  - `OkHttp`의 `HttpLoggingInterceptor` 에도 **timber**를 적용과 Custom이 가능하다.
   - 그 외에 logging 하는 방법은 기존 `Logcat` 과 동일하다. `Log.d( , )` -> `Timber.d()`
 
 <img width="452" alt="스크린샷 2023-12-10 13 14 31" src="https://github.com/2taezeat/imageRepo/assets/59787852/3b59be5a-04be-47ed-b9ba-178da5c62a06">
