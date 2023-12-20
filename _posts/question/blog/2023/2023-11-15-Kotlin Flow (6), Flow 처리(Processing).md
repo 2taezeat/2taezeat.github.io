@@ -417,6 +417,7 @@ suspend fun main() {
 - **예외**는 플로우를 따라 흐르면서 **각 단계를 하나씩 종료한다.**
 - 종료된 단계는 **비활성화**되기 때문에, **예외**가 발생한 뒤 메시지를 보내는 건 불가능하지만, **각 단계**가 **이전 단계에 대한 참조**를 가지고 있으며, 플로우를 **다시 시작**하기 위해 **참조**를 사용할 수 있다.
 - 이 원리에 기반하여, 코틀린은 `retry`와 `retryWhen` 함수를 제공한다.
+
 ```kotlin
 fun <T> Flow<T>.retryWhen(
     predicate: suspend FlowCollector<T>.(
@@ -468,6 +469,7 @@ suspend fun main() {
 ```
 
 - 어떤 **예외**든지 항상 **재시도** 하는 경우, **log**를 남기고 새로운 연결 맺는 걸 시도할 때 **시간 간격**을 주기 위해 **predict(조건자)** 를 정의한다.
+
 ```kotlin
 fun makeConnection(config: ConnectionConfig) = api
     .startConnection(config)
@@ -477,8 +479,10 @@ fun makeConnection(config: ConnectionConfig) = api
         true
     }
 ```
+
 - 연결을 계속해서 **재시도**할 때 **시간 간격**을 점진적으로 증가시키는 방법도 자주 사용된다.
 - **예외가 특정 타입**일 때 **재시도**하는 **조건자**를 구현할 수 도 있다.
+
 ```kotlin
 fun makeConnection(config: ConnectionConfig) = api
     .startConnection(config)
@@ -494,6 +498,7 @@ fun makeConnection(config: ConnectionConfig) = api
 - `collect` 외에도, `Collection(컬렉션)`과 `Sequence` 가 제공하는 것과 비슷한 `count, first, firstOrNull, fold, reduce` 또한 **최종 연산**이다.
 - **최종 연산**은 **중단 가능(suspend)** 가능하며, 플로우가 **완료**되었을 때 또는 **최종 연산 자체가 플로우를 완료** 시켰을 때 **값을 반환**한다.
 - `collect` 메서드를 사용해서 또 다른 **최종 연산**을 얼마든지 **구현**할 수 도 있다.
+
 ```kotlin
 suspend fun main() {
     val flow = flowOf(1, 2, 3, 4) // [1, 2, 3, 4]
@@ -506,6 +511,7 @@ suspend fun main() {
     println(flow.fold(0) { acc, value -> acc + value }) // 30
 }
 ```
+
 # Reference
 - https://kotlinlang.org/docs/coroutines-guide.html
 - 코틀린 코루틴 Kotlin Coroutines: Deep Dive (Marcin Moskała, 인사이트)
