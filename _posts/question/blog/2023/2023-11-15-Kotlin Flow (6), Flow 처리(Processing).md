@@ -99,16 +99,18 @@ fun isEven(num: Int): Boolean = num % 2 == 0
 ## take
 - 특정 수의 원소만 **통과**시킬 때 사용
 
-## drop
-- 특정 수의 원소를 **무시**할 때 사용
-
 ```kotlin
 suspend fun main() {
     ('A'..'Z').asFlow()
         .take(5) // [A, B, C, D, E]
         .collect { print(it) } // ABCDE
 }
+```
 
+## drop
+- 특정 수의 원소를 **무시**할 때 사용
+
+```kotlin
 suspend fun main() {
     ('A'..'Z').asFlow()
         .drop(20) // [U, V, W, X, Y, Z]
