@@ -46,9 +46,9 @@ suspend fun main(): Unit = coroutineScope {
 > 위 프로그램은 `coroutineScope`의 **자식 코루틴이 launch**로 시작된 뒤 `MutableSharedFlow`를 **감지**하고 있는 상태 임으로 종료되지 않는다.
 > 프로그램을 종료하려면 **전체 스코프를 취소**해야 한다.
 
-- `MutabledSharedFlow`는 메시지 보내는 작업을 유지 할 수도 있다.
+- `MutabledSharedFlow`는 메시지 보내는 작업을 **유지** 할 수도 있다.
 - **기본값이 0**인 `replay` 인자를 설정하면 **마지막으로 전송한 값**들이 정해진 수 만큼 **저장**된다.
-- 코루틴이 감지를 시작하면 저장된 값들을 먼저 받게 된다.
+- 코루틴이 **감지**를 시작하면 **저장된 값들을 먼저 받게** 된다.
 - `resetReplayCache`를 사용하면 값을 저장한 캐시를 **초기화** 할 수 있다.
 
 ```kotlin
@@ -164,9 +164,9 @@ suspend fun main(): Unit = coroutineScope {
 // #3 C
 ```
 
-- `shareIn` 함수는 `SharedFlow`를 만들고 `Flow`의 원소를 보냅니다.
+- `shareIn` 함수는 `SharedFlow`를 만들고 `Flow`의 원소를 보낸다.
 - 플로우의 원소를 모으는 코루틴을 시작하므로 `shareIn` 함수는 **첫 번째 인자**로 **코루틴 스코프**를 받는다.
-- **세 번째 인자**는 **기본값이 0**인 replay 값이다.
+- **세 번째 인자**는 **기본값이 0**인 `replay` 값이다.
 - **두 번째 인자**인 `started`는 리스너의 수에 따라 **값을 언제부터 감지**할지 결정한다.
     - `SharingStarted.Eagerly`: **즉시 값을 감지**하기 시작하고 플로우로 값을 전송한다.
     - `SharingStarted.Lazily`: **첫 번째 구독자가 나올 때** 감지하기 시작한다. 모든 구독자가 사라져도 업스트림(데이터를 방출하는) 플로우는 **Active 상태**이지지만, 구독자가 없으면 `replay` 수 만큼 가장 최근의 값들을 **캐싱**한다.
@@ -254,7 +254,7 @@ suspend fun main(): Unit = coroutineScope {
 - 다양한 서비스가 **_location_** 에 의존하고 있다면, 각 서비스가 데이터베이스를 **독자적으로 감지하는 건** 최적화된 방법이 아니다.
 - 대신 이런 변화를  `SharedFlow`를 통해 **감지된 변화를 공유**하는 것이 좋다.
     - `replay = 1`: 구독자가 **_location_** 의 **마지막 목록을 즉시 받기** 원할 때
-    - `replay = 0`: **구독 후의 변경**에만 반응하려면 **0**으로 설정
+    - `replay = 0`: **구독 후의 변경**에만 반응할 때
 
 ```kotlin
 @Dao
@@ -283,14 +283,14 @@ class LocationService(
 }
 ```
 
-> 호출 할 때마다 새로운 `SharedFlow`를 만들면 안되고, `SharedFlow`를 만든 뒤 **프로퍼티**로 저장하자.
+> **호출 할 때마다** 새로운 `SharedFlow`를 만들면 안되고, `SharedFlow`를 만든 뒤 **프로퍼티**로 저장하자.
 
 # StateFlow
 - `StateFlow` 는 `SharedFlow`의 개념을 확장 시킨 것으로, **replay 값이 1**인 `SharedFlow`와 비슷하게 작동한다.
 - `StateFlow` 는 `value` **프로퍼티**로 **접근 가능한 값 하나를 항상** 가지고 있다.
     - **초기 값**은 **생성자**를 통해 전달되어야 한다.
     - `value` **프로퍼티**로 **값을 얻어** 올 수도 있고, **설정** 할 수도 있다.
-    - `MutableStateFlow는` **값을 감지할 수 있는 보관소** 이다.
+    - `MutableStateFlow`는 **값을 감지할 수 있는 보관소** 이다.
 
 ```kotlin
 interface StateFlow<out T> : SharedFlow<T> {
@@ -351,8 +351,8 @@ class LatestNewsViewModel(
 ```
 
 - `StateFlow` 는 **데이터가 덮어 씌워지기** 때문에, **observe가 느린 경우**, 상태의 **중간 변화**를 받을 수 없는 경우도 있다.
-    - 모든 **이벤트**를 다 받으려면, `SharedFlow`를 사용해야 한다.
-    - `StateFlow`는 **현재 상태**만 나타내기 때문에, `StateFlow`의 **이전 상태**는 아무도 관심이 없다. 이는 의도적으로 설계되었다.
+    - **모든 이벤트**를 다 받으려면, `StateFlow`가 아니라, `SharedFlow`를 사용해야 한다.
+    - `StateFlow`는 **현재 상태**만 나타내기 때문에, `StateFlow`의 **이전 상태**는 아무도 관심이 없다.
 
 ```kotlin
 suspend fun main(): Unit = coroutineScope {
@@ -377,7 +377,7 @@ suspend fun main(): Unit = coroutineScope {
 
 ## stateIn
 - `stateIn` 는 `Flow<T>`를 `StateFlow<T>` 로 변환하는 함수이다.
-- 스코프에서만 호출 가능하지만, **중단 함수** 이기도 하다.
+- **스코프**에서만 호출 가능하지만, **중단 함수** 이기도 하다.
 - `StateFlow`는 항상 **값을 가져야** 하기에, **값을 명시하지 않았을 때**는 **첫 번째 값**이 **계산될 때까지 기다려야 한다.**
 
 ```kotlin
@@ -404,7 +404,7 @@ suspend fun main() = coroutineScope {
 // Received C
 ```
 
-- `stateIn`의 두 번째 형태는 **중단 함수**가 아니지만, **초기 값**과 s**tarted 모드**를 지정해야 한다.
+- `stateIn`의 두 번째 형태는 **중단 함수**가 아니지만, **초기 값**과 **started 모드**를 지정해야 한다.
     - `started` 모드는 `shareIn`과 **같은 옵션**을 가진다.
 
 ```kotlin
