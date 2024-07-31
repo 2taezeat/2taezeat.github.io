@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on 2taezeat, blog</title>
-    <link>https://2taezeat.github.io/tags/</link>
-    <description>Recent content in Tags on 2taezeat, blog</description>
+    <title>Posts on 2taezeat, blog</title>
+    <link>https://2taezeat.github.io/posts/</link>
+    <description>Recent content in Posts on 2taezeat, blog</description>
     <image>
       <title>2taezeat, blog</title>
       <url>https://2taezeat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,13 +12,13 @@
     <generator>Hugo -- 0.130.0</generator>
     <language>en</language>
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
-    <atom:link href="https://2taezeat.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://2taezeat.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hi</title>
-      <link>https://2taezeat.github.io/tags/hi/</link>
+      <title>new post three</title>
+      <link>https://2taezeat.github.io/posts/new-post-three/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://2taezeat.github.io/tags/hi/</guid>
-      <description></description>
+      <guid>https://2taezeat.github.io/posts/new-post-three/</guid>
+      <description>_____asdasasd_</description>
     </item>
   </channel>
 </rss>
