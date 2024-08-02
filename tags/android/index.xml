@@ -11,21 +11,91 @@
     </image>
     <generator>Hugo -- 0.130.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Nov 2023 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Nov 2023 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://2taezeat.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jetpack Navigation 기초</title>
+      <link>https://2taezeat.github.io/posts/android/jetpack-navigation/</link>
+      <pubDate>Fri, 10 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/android/jetpack-navigation/</guid>
+      <description>Jetpack Navigation 기초</description>
+    </item>
+    <item>
+      <title>Android View 기초</title>
+      <link>https://2taezeat.github.io/posts/android/android-view/</link>
+      <pubDate>Thu, 09 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/android/android-view/</guid>
+      <description>Android View 기초</description>
+    </item>
+    <item>
+      <title>Android Testing 기초</title>
+      <link>https://2taezeat.github.io/posts/android/android-testing-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Wed, 08 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/android/android-testing-%EC%A0%95%EB%A6%AC/</guid>
+      <description>Android Testing 기초</description>
+    </item>
+    <item>
+      <title>Android Network 기초</title>
+      <link>https://2taezeat.github.io/posts/android/android-network/</link>
+      <pubDate>Tue, 07 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/android/android-network/</guid>
+      <description>Android Network 기초</description>
+    </item>
+    <item>
+      <title>Android Hilt 기초</title>
+      <link>https://2taezeat.github.io/posts/android/android-hilt/</link>
+      <pubDate>Mon, 06 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/android/android-hilt/</guid>
+      <description>Android Hilt 기초</description>
+    </item>
+    <item>
+      <title>Android Build 기초</title>
+      <link>https://2taezeat.github.io/posts/android/android-build/</link>
+      <pubDate>Sun, 05 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/android/android-build/</guid>
+      <description>Android Build 기초</description>
+    </item>
+    <item>
+      <title>Kotest 도입기</title>
+      <link>https://2taezeat.github.io/posts/2023/kotest-%EB%8F%84%EC%9E%85%EA%B8%B0/</link>
+      <pubDate>Sat, 04 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/2023/kotest-%EB%8F%84%EC%9E%85%EA%B8%B0/</guid>
+      <description>Kotest 도입기</description>
+    </item>
+    <item>
+      <title>Android 개발에서, 네트워크 예외 처리</title>
+      <link>https://2taezeat.github.io/posts/2023/android-%EA%B0%9C%EB%B0%9C%EC%97%90%EC%84%9C-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%98%88%EC%99%B8-%EC%B2%98%EB%A6%AC/</link>
+      <pubDate>Fri, 03 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/2023/android-%EA%B0%9C%EB%B0%9C%EC%97%90%EC%84%9C-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%98%88%EC%99%B8-%EC%B2%98%EB%A6%AC/</guid>
+      <description>Android 개발에서, 네트워크 예외 처리</description>
+    </item>
     <item>
       <title>Android 개발시 Timber을 적용한 이유</title>
       <link>https://2taezeat.github.io/posts/2023/android-%EA%B0%9C%EB%B0%9C%EC%8B%9C-timber%EC%9D%84-%EC%A0%81%EC%9A%A9%ED%95%9C-%EC%9D%B4%EC%9C%A0/</link>
       <pubDate>Thu, 02 Nov 2023 11:30:03 +0000</pubDate>
       <guid>https://2taezeat.github.io/posts/2023/android-%EA%B0%9C%EB%B0%9C%EC%8B%9C-timber%EC%9D%84-%EC%A0%81%EC%9A%A9%ED%95%9C-%EC%9D%B4%EC%9C%A0/</guid>
-      <description>&amp;#39;Android 개발시 Timber을 적용한 이유</description>
+      <description>Android 개발시 Timber을 적용한 이유</description>
     </item>
     <item>
       <title>Android 개발에서 쓰이는, 직렬화 기술 비교</title>
       <link>https://2taezeat.github.io/posts/2023/android-%EA%B0%9C%EB%B0%9C%EC%97%90%EC%84%9C-%EC%93%B0%EC%9D%B4%EB%8A%94-%EC%A7%81%EB%A0%AC%ED%99%94-%EA%B8%B0%EC%88%A0-%EB%B9%84%EA%B5%90/</link>
       <pubDate>Wed, 01 Nov 2023 11:30:03 +0000</pubDate>
       <guid>https://2taezeat.github.io/posts/2023/android-%EA%B0%9C%EB%B0%9C%EC%97%90%EC%84%9C-%EC%93%B0%EC%9D%B4%EB%8A%94-%EC%A7%81%EB%A0%AC%ED%99%94-%EA%B8%B0%EC%88%A0-%EB%B9%84%EA%B5%90/</guid>
-      <description>&amp;#39;여러 역/직렬화 라이브러리 중 무엇을 쓸까?</description>
+      <description>여러 역/직렬화 라이브러리 중 무엇을 쓸까?</description>
+    </item>
+    <item>
+      <title>Navigation과 Fragment 생명주기</title>
+      <link>https://2taezeat.github.io/posts/2023/navigation%EA%B3%BC-fragment-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0/</link>
+      <pubDate>Wed, 30 Aug 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/2023/navigation%EA%B3%BC-fragment-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0/</guid>
+      <description>Jetpack Navigation 사용시에, Fragment 생명주기 에 대해 알아보자</description>
+    </item>
+    <item>
+      <title>Fragment에서 Memory Leak이 발생할 수 있는 경우</title>
+      <link>https://2taezeat.github.io/posts/2023/fragment%EC%97%90%EC%84%9C-memory-leak%EC%9D%B4-%EB%B0%9C%EC%83%9D%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
+      <pubDate>Thu, 17 Aug 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/2023/fragment%EC%97%90%EC%84%9C-memory-leak%EC%9D%B4-%EB%B0%9C%EC%83%9D%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
+      <description>Fragment에서 Memory Leak이 발생할 수 있는 경우에 대해 알아보자.</description>
     </item>
   </channel>
 </rss>

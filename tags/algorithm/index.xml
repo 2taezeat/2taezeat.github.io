@@ -202,5 +202,12 @@
       <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch01-02-03.-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</guid>
       <description>ch01. 문제 해결과 프로그래밍 대회, ch02. 문제 해결 개관, ch03. 코딩과 디버깅에 관하여</description>
     </item>
+    <item>
+      <title>Iterative Lengthening Search(ILS) 알고리즘</title>
+      <link>https://2taezeat.github.io/posts/2023/iterative-lengthening-searchils-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
+      <pubDate>Sun, 13 Aug 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/2023/iterative-lengthening-searchils-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</guid>
+      <description>Iterative Lengthening Search(ILS) 알고리즘</description>
+    </item>
   </channel>
 </rss>

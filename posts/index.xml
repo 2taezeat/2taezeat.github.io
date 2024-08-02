@@ -11,8 +11,43 @@
     </image>
     <generator>Hugo -- 0.130.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 07 Apr 2024 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 May 2024 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://2taezeat.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[오브젝트] ch05. 책임 할당하기</title>
+      <link>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch05.-%EC%B1%85%EC%9E%84-%ED%95%A0%EB%8B%B9%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Sun, 05 May 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch05.-%EC%B1%85%EC%9E%84-%ED%95%A0%EB%8B%B9%ED%95%98%EA%B8%B0/</guid>
+      <description>ch05. 책임 할당하기</description>
+    </item>
+    <item>
+      <title>[오브젝트] ch04. 설계 품질과 트레이드오프</title>
+      <link>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch04.-%EC%84%A4%EA%B3%84-%ED%92%88%EC%A7%88%EA%B3%BC-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%93%9C%EC%98%A4%ED%94%84/</link>
+      <pubDate>Sat, 04 May 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch04.-%EC%84%A4%EA%B3%84-%ED%92%88%EC%A7%88%EA%B3%BC-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%93%9C%EC%98%A4%ED%94%84/</guid>
+      <description>ch04. 설계 품질과 트레이드오프</description>
+    </item>
+    <item>
+      <title>[오브젝트] ch03. 역할, 책임, 협력</title>
+      <link>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch03.-%EC%97%AD%ED%95%A0-%EC%B1%85%EC%9E%84-%ED%98%91%EB%A0%A5/</link>
+      <pubDate>Fri, 03 May 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch03.-%EC%97%AD%ED%95%A0-%EC%B1%85%EC%9E%84-%ED%98%91%EB%A0%A5/</guid>
+      <description>ch03. 역할, 책임, 협력</description>
+    </item>
+    <item>
+      <title>[오브젝트] ch02. 객체지향 프로그래밍</title>
+      <link>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch02.-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
+      <pubDate>Thu, 02 May 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch02.-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
+      <description>ch02. 객체지향 프로그래밍</description>
+    </item>
+    <item>
+      <title>[오브젝트] ch01. 객체, 설계</title>
+      <link>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch01.-%EA%B0%9D%EC%B2%B4-%EC%84%A4%EA%B3%84/</link>
+      <pubDate>Wed, 01 May 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch01.-%EA%B0%9D%EC%B2%B4-%EC%84%A4%EA%B3%84/</guid>
+      <description>ch01. 객체, 설계</description>
+    </item>
     <item>
       <title>[컴퓨터구조 &#43; 운영체제] ch15. 파일 시스템</title>
       <link>https://2taezeat.github.io/posts/os/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0-&#43;-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-ch15.-%ED%8C%8C%EC%9D%BC-%EC%8B%9C%EC%8A%A4%ED%85%9C/</link>
@@ -63,39 +98,88 @@
       <description>&amp;#39;혼자 공부하는 컴퓨터구조&#43;운영체제&amp;#39;, ch09. 운영체제 시작하기</description>
     </item>
     <item>
-      <title>[오브젝트] ch05. 책임 할당하기</title>
-      <link>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch05.-%EC%B1%85%EC%9E%84-%ED%95%A0%EB%8B%B9%ED%95%98%EA%B8%B0/</link>
+      <title>[코틀린 코루틴] ch24. SharedFlow, StateFlow</title>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch24.-sharedflow-stateflow/</link>
+      <pubDate>Sat, 24 Feb 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch24.-sharedflow-stateflow/</guid>
+      <description>ch23. SharedFlow, StateFlow</description>
+    </item>
+    <item>
+      <title>[코루틴 코루틴] ch23. Flow 처리(Processing)</title>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch23.-flow-%EC%B2%98%EB%A6%ACprocessing/</link>
+      <pubDate>Fri, 23 Feb 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch23.-flow-%EC%B2%98%EB%A6%ACprocessing/</guid>
+      <description>ch22. Flow 처리(Processing)</description>
+    </item>
+    <item>
+      <title>[코루틴 코루틴] ch22. Flow 생명주기 함수</title>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch22.-flow-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%ED%95%A8%EC%88%98/</link>
+      <pubDate>Thu, 22 Feb 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch22.-flow-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%ED%95%A8%EC%88%98/</guid>
+      <description>ch22. Flow 생명주기 함수</description>
+    </item>
+    <item>
+      <title>[코루틴 코루틴] ch21. Flow 만들기</title>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch21.-flow-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
+      <pubDate>Wed, 21 Feb 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch21.-flow-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
+      <description>ch21. Flow 만들기</description>
+    </item>
+    <item>
+      <title>[코루틴 코루틴] ch20. Flow의 실제 구현</title>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch20.-flow%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</link>
+      <pubDate>Tue, 20 Feb 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch20.-flow%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</guid>
+      <description>ch20. Flow의 실제 구현</description>
+    </item>
+    <item>
+      <title>[코루틴 코루틴] ch19. Flow란 무엇인가?</title>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch19.-flow%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/</link>
+      <pubDate>Mon, 19 Feb 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch19.-flow%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/</guid>
+      <description>ch19. Flow란 무엇인가?</description>
+    </item>
+    <item>
+      <title>[코루틴 코루틴] ch18. Hot vs Cold 데이터 소스</title>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch18.-hot-vs-cold/</link>
+      <pubDate>Sun, 18 Feb 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch18.-hot-vs-cold/</guid>
+      <description>Hot vs Cold 데이터 스트림에 대해 알아 보자.</description>
+    </item>
+    <item>
+      <title>[코루틴 코루틴] ch05. 코루틴 - 언어 차원에서의 지원 vs 라이브러리</title>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch05.-%EC%BD%94%EB%A3%A8%ED%8B%B4---%EC%96%B8%EC%96%B4-%EC%B0%A8%EC%9B%90%EC%97%90%EC%84%9C%EC%9D%98-%EC%A7%80%EC%9B%90-vs-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/</link>
       <pubDate>Mon, 05 Feb 2024 11:30:03 +0000</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch05.-%EC%B1%85%EC%9E%84-%ED%95%A0%EB%8B%B9%ED%95%98%EA%B8%B0/</guid>
-      <description>ch05. 책임 할당하기</description>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch05.-%EC%BD%94%EB%A3%A8%ED%8B%B4---%EC%96%B8%EC%96%B4-%EC%B0%A8%EC%9B%90%EC%97%90%EC%84%9C%EC%9D%98-%EC%A7%80%EC%9B%90-vs-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/</guid>
+      <description>ch05. 코루틴 - 언어 차원에서의 지원 vs 라이브러리</description>
     </item>
     <item>
-      <title>[오브젝트] ch04. 설계 품질과 트레이드오프</title>
-      <link>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch04.-%EC%84%A4%EA%B3%84-%ED%92%88%EC%A7%88%EA%B3%BC-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%93%9C%EC%98%A4%ED%94%84/</link>
+      <title>[코루틴 코루틴] ch04. 코루틴의 실제 구현</title>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch04.-%EC%BD%94%EB%A3%A8%ED%8B%B4%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</link>
       <pubDate>Sun, 04 Feb 2024 11:30:03 +0000</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch04.-%EC%84%A4%EA%B3%84-%ED%92%88%EC%A7%88%EA%B3%BC-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%93%9C%EC%98%A4%ED%94%84/</guid>
-      <description>ch04. 설계 품질과 트레이드오프</description>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch04.-%EC%BD%94%EB%A3%A8%ED%8B%B4%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</guid>
+      <description>ch04. 코루틴의 실제 구현</description>
     </item>
     <item>
-      <title>[오브젝트] ch03. 역할, 책임, 협력</title>
-      <link>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch03.-%EC%97%AD%ED%95%A0-%EC%B1%85%EC%9E%84-%ED%98%91%EB%A0%A5/</link>
+      <title>[코루틴 코루틴] ch03. 중단은 어떻게 작동할까?</title>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch03.-%EC%A4%91%EB%8B%A8%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%A0%EA%B9%8C/</link>
       <pubDate>Sat, 03 Feb 2024 11:30:03 +0000</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch03.-%EC%97%AD%ED%95%A0-%EC%B1%85%EC%9E%84-%ED%98%91%EB%A0%A5/</guid>
-      <description>ch03. 역할, 책임, 협력</description>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch03.-%EC%A4%91%EB%8B%A8%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%A0%EA%B9%8C/</guid>
+      <description>ch02. 시퀀스 빌더</description>
     </item>
     <item>
-      <title>[오브젝트] ch02. 객체지향 프로그래밍</title>
-      <link>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch02.-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
+      <title>[코루틴 코루틴] ch02. 시퀀스 빌더</title>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch02.-%EC%8B%9C%ED%80%80%EC%8A%A4-%EB%B9%8C%EB%8D%94/</link>
       <pubDate>Fri, 02 Feb 2024 11:30:03 +0000</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch02.-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
-      <description>ch02. 객체지향 프로그래밍</description>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch02.-%EC%8B%9C%ED%80%80%EC%8A%A4-%EB%B9%8C%EB%8D%94/</guid>
+      <description>ch02. 시퀀스 빌더</description>
     </item>
     <item>
-      <title>[오브젝트] ch01. 객체, 설계</title>
-      <link>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch01.-%EA%B0%9D%EC%B2%B4-%EC%84%A4%EA%B3%84/</link>
+      <title>[코루틴 코루틴] ch01. 코틀린 코루틴을 배워야 하는 이유</title>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch01.-%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4%EC%9D%84-%EB%B0%B0%EC%9B%8C%EC%95%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</link>
       <pubDate>Thu, 01 Feb 2024 11:30:03 +0000</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8/%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-ch01.-%EA%B0%9D%EC%B2%B4-%EC%84%A4%EA%B3%84/</guid>
-      <description>ch01. 객체, 설계</description>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-ch01.-%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4%EC%9D%84-%EB%B0%B0%EC%9B%8C%EC%95%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</guid>
+      <description>ch01. 코틀린 코루틴을 배워야 하는 이유</description>
     </item>
     <item>
       <title>[알고리즘 문제 해결 전략] ch32. 그래프</title>
@@ -287,165 +371,165 @@
       <description>ch01. 문제 해결과 프로그래밍 대회, ch02. 문제 해결 개관, ch03. 코딩과 디버깅에 관하여</description>
     </item>
     <item>
-      <title>Kotlin Flow, (7) SharedFlow, StateFlow</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-7-sharedflow-stateflow/</link>
-      <pubDate>Fri, 17 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-7-sharedflow-stateflow/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;SharedFlow, StateFlow 에 대해 알아보자.&lt;/strong&gt;&lt;/p&gt;</description>
+      <title>OOP 정리</title>
+      <link>https://2taezeat.github.io/posts/dev/oop-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Sat, 09 Dec 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/dev/oop-%EC%A0%95%EB%A6%AC/</guid>
+      <description>OOP 정리</description>
     </item>
     <item>
-      <title>Kotlin Flow, (6) Flow 처리(Processing)</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-6-flow-%EC%B2%98%EB%A6%ACprocessing/</link>
-      <pubDate>Thu, 16 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-6-flow-%EC%B2%98%EB%A6%ACprocessing/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Flow 처리(Processing)에 대해 알아보자.&lt;/strong&gt;&lt;/p&gt;</description>
+      <title>MVC, MVP, MVVM 정리</title>
+      <link>https://2taezeat.github.io/posts/dev/mvc-mvp-mvvm-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Fri, 08 Dec 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/dev/mvc-mvp-mvvm-%EC%A0%95%EB%A6%AC/</guid>
+      <description>MVC, MVP, MVVM 정리</description>
     </item>
     <item>
-      <title>Kotlin Flow, (5) Flow 생명주기 함수</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-5-flow-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%ED%95%A8%EC%88%98/</link>
-      <pubDate>Wed, 15 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-5-flow-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%ED%95%A8%EC%88%98/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Flow 생명주기 함수를 알아보자.&lt;/strong&gt;&lt;/p&gt;</description>
+      <title>Kotlin 정리 (4)</title>
+      <link>https://2taezeat.github.io/posts/dev/kotlin-%EC%A0%95%EB%A6%AC-4/</link>
+      <pubDate>Thu, 07 Dec 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/dev/kotlin-%EC%A0%95%EB%A6%AC-4/</guid>
+      <description>Kotlin 정리 (4)</description>
     </item>
     <item>
-      <title>Kotlin Flow, (4) Flow 만들기</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-4-flow-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
-      <pubDate>Tue, 14 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-4-flow-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Flow 를 생성해보자.&lt;/strong&gt;&lt;/p&gt;</description>
+      <title>Kotlin 정리 (3)</title>
+      <link>https://2taezeat.github.io/posts/dev/kotlin-%EC%A0%95%EB%A6%AC-3/</link>
+      <pubDate>Wed, 06 Dec 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/dev/kotlin-%EC%A0%95%EB%A6%AC-3/</guid>
+      <description>Kotlin 정리 (3)</description>
     </item>
     <item>
-      <title>Kotlin Flow, (3) Flow의 실제 구현</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-3-flow%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</link>
-      <pubDate>Mon, 13 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-3-flow%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Flow의 실제 내부 구현은 어떻게 되어 있을까?&lt;/strong&gt;&lt;/p&gt;</description>
+      <title>Kotlin 정리 (2)</title>
+      <link>https://2taezeat.github.io/posts/dev/kotlin-%EC%A0%95%EB%A6%AC-2/</link>
+      <pubDate>Tue, 05 Dec 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/dev/kotlin-%EC%A0%95%EB%A6%AC-2/</guid>
+      <description>Kotlin 정리 (2)</description>
     </item>
     <item>
-      <title>Kotlin Flow, (2) Flow 개요</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-2-flow-%EA%B0%9C%EC%9A%94/</link>
-      <pubDate>Sun, 12 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-2-flow-%EA%B0%9C%EC%9A%94/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Flow란 무엇인가?&lt;/strong&gt;&lt;/p&gt;</description>
+      <title>Kotlin 정리 (1)</title>
+      <link>https://2taezeat.github.io/posts/dev/kotlin-%EC%A0%95%EB%A6%AC-1/</link>
+      <pubDate>Mon, 04 Dec 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/dev/kotlin-%EC%A0%95%EB%A6%AC-1/</guid>
+      <description>Kotlin 정리 (1)</description>
     </item>
     <item>
-      <title>Kotlin Flow, (1) Hot vs Cold</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-1-hot-vs-cold/</link>
-      <pubDate>Sat, 11 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-1-hot-vs-cold/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Hot vs Cold 데이터 스트림에 대해 알아 보자.&lt;/strong&gt;&lt;/p&gt;</description>
+      <title>JVM 정리</title>
+      <link>https://2taezeat.github.io/posts/dev/jvm-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Sun, 03 Dec 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/dev/jvm-%EC%A0%95%EB%A6%AC/</guid>
+      <description>JVM 정리</description>
+    </item>
+    <item>
+      <title>DI(Dependency Injection) 정리</title>
+      <link>https://2taezeat.github.io/posts/dev/di-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Sat, 02 Dec 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/dev/di-%EC%A0%95%EB%A6%AC/</guid>
+      <description>DI(Dependency Injection) 정리</description>
+    </item>
+    <item>
+      <title>Clean Architecture 정리</title>
+      <link>https://2taezeat.github.io/posts/dev/clean-architecture-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Fri, 01 Dec 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/dev/clean-architecture-%EC%A0%95%EB%A6%AC/</guid>
+      <description>Clean Architecture 정리</description>
+    </item>
+    <item>
+      <title>Jetpack Navigation 기초</title>
+      <link>https://2taezeat.github.io/posts/android/jetpack-navigation/</link>
+      <pubDate>Fri, 10 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/android/jetpack-navigation/</guid>
+      <description>Jetpack Navigation 기초</description>
+    </item>
+    <item>
+      <title>Android View 기초</title>
+      <link>https://2taezeat.github.io/posts/android/android-view/</link>
+      <pubDate>Thu, 09 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/android/android-view/</guid>
+      <description>Android View 기초</description>
+    </item>
+    <item>
+      <title>Android Testing 기초</title>
+      <link>https://2taezeat.github.io/posts/android/android-testing-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Wed, 08 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/android/android-testing-%EC%A0%95%EB%A6%AC/</guid>
+      <description>Android Testing 기초</description>
+    </item>
+    <item>
+      <title>Android Network 기초</title>
+      <link>https://2taezeat.github.io/posts/android/android-network/</link>
+      <pubDate>Tue, 07 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/android/android-network/</guid>
+      <description>Android Network 기초</description>
+    </item>
+    <item>
+      <title>Android Hilt 기초</title>
+      <link>https://2taezeat.github.io/posts/android/android-hilt/</link>
+      <pubDate>Mon, 06 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/android/android-hilt/</guid>
+      <description>Android Hilt 기초</description>
+    </item>
+    <item>
+      <title>Android Build 기초</title>
+      <link>https://2taezeat.github.io/posts/android/android-build/</link>
+      <pubDate>Sun, 05 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/android/android-build/</guid>
+      <description>Android Build 기초</description>
     </item>
     <item>
       <title>Kotest 도입기</title>
       <link>https://2taezeat.github.io/posts/2023/kotest-%EB%8F%84%EC%9E%85%EA%B8%B0/</link>
-      <pubDate>Sat, 04 Nov 2023 02:54:46 +0900</pubDate>
+      <pubDate>Sat, 04 Nov 2023 11:30:03 +0000</pubDate>
       <guid>https://2taezeat.github.io/posts/2023/kotest-%EB%8F%84%EC%9E%85%EA%B8%B0/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Kotest 도입기&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>Kotest 도입기</description>
     </item>
     <item>
       <title>Android 개발에서, 네트워크 예외 처리</title>
       <link>https://2taezeat.github.io/posts/2023/android-%EA%B0%9C%EB%B0%9C%EC%97%90%EC%84%9C-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%98%88%EC%99%B8-%EC%B2%98%EB%A6%AC/</link>
-      <pubDate>Fri, 03 Nov 2023 01:54:46 +0900</pubDate>
+      <pubDate>Fri, 03 Nov 2023 11:30:03 +0000</pubDate>
       <guid>https://2taezeat.github.io/posts/2023/android-%EA%B0%9C%EB%B0%9C%EC%97%90%EC%84%9C-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%98%88%EC%99%B8-%EC%B2%98%EB%A6%AC/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Android 개발에서, 네트워크 예외 처리&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>Android 개발에서, 네트워크 예외 처리</description>
     </item>
     <item>
       <title>Android 개발시 Timber을 적용한 이유</title>
       <link>https://2taezeat.github.io/posts/2023/android-%EA%B0%9C%EB%B0%9C%EC%8B%9C-timber%EC%9D%84-%EC%A0%81%EC%9A%A9%ED%95%9C-%EC%9D%B4%EC%9C%A0/</link>
       <pubDate>Thu, 02 Nov 2023 11:30:03 +0000</pubDate>
       <guid>https://2taezeat.github.io/posts/2023/android-%EA%B0%9C%EB%B0%9C%EC%8B%9C-timber%EC%9D%84-%EC%A0%81%EC%9A%A9%ED%95%9C-%EC%9D%B4%EC%9C%A0/</guid>
-      <description>&amp;#39;Android 개발시 Timber을 적용한 이유</description>
+      <description>Android 개발시 Timber을 적용한 이유</description>
     </item>
     <item>
       <title>Android 개발에서 쓰이는, 직렬화 기술 비교</title>
       <link>https://2taezeat.github.io/posts/2023/android-%EA%B0%9C%EB%B0%9C%EC%97%90%EC%84%9C-%EC%93%B0%EC%9D%B4%EB%8A%94-%EC%A7%81%EB%A0%AC%ED%99%94-%EA%B8%B0%EC%88%A0-%EB%B9%84%EA%B5%90/</link>
       <pubDate>Wed, 01 Nov 2023 11:30:03 +0000</pubDate>
       <guid>https://2taezeat.github.io/posts/2023/android-%EA%B0%9C%EB%B0%9C%EC%97%90%EC%84%9C-%EC%93%B0%EC%9D%B4%EB%8A%94-%EC%A7%81%EB%A0%AC%ED%99%94-%EA%B8%B0%EC%88%A0-%EB%B9%84%EA%B5%90/</guid>
-      <description>&amp;#39;여러 역/직렬화 라이브러리 중 무엇을 쓸까?</description>
-    </item>
-    <item>
-      <title>Kotlin Coroutine, 내부</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch4.-%EC%BD%94%EB%A3%A8%ED%8B%B4%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</link>
-      <pubDate>Wed, 01 Nov 2023 02:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch4.-%EC%BD%94%EB%A3%A8%ED%8B%B4%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine 내부 동작을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kotlin Coroutine, 내부</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EB%82%B4%EB%B6%80/</link>
-      <pubDate>Wed, 01 Nov 2023 02:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EB%82%B4%EB%B6%80/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine 내부 동작을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kotlin Coroutine, Suspend &amp; Resume</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch3.-%EC%A4%91%EB%8B%A8%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%A0%EA%B9%8C/</link>
-      <pubDate>Wed, 01 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch3.-%EC%A4%91%EB%8B%A8%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%A0%EA%B9%8C/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine Suspend, Resume을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kotlin Coroutine, Suspend &amp; Resume</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-suspend--resume/</link>
-      <pubDate>Wed, 01 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-suspend--resume/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine Suspend, Resume을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kotlin Coroutine, 기본</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EA%B8%B0%EB%B3%B8/</link>
-      <pubDate>Tue, 31 Oct 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EA%B8%B0%EB%B3%B8/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine 기본 개념을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>new-post-kotlin</title>
-      <link>https://2taezeat.github.io/posts/new-post-%EC%BD%94%ED%8B%80%EB%A6%B0/</link>
-      <pubDate>Fri, 15 Sep 2023 11:30:03 +0000</pubDate>
-      <guid>https://2taezeat.github.io/posts/new-post-%EC%BD%94%ED%8B%80%EB%A6%B0/</guid>
-      <description>new-post-kotlin</description>
+      <description>여러 역/직렬화 라이브러리 중 무엇을 쓸까?</description>
     </item>
     <item>
       <title>Navigation과 Fragment 생명주기</title>
       <link>https://2taezeat.github.io/posts/2023/navigation%EA%B3%BC-fragment-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0/</link>
-      <pubDate>Wed, 30 Aug 2023 14:54:46 +0900</pubDate>
+      <pubDate>Wed, 30 Aug 2023 11:30:03 +0000</pubDate>
       <guid>https://2taezeat.github.io/posts/2023/navigation%EA%B3%BC-fragment-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Jetpack Navigation 사용시에, Fragment 생명주기 에 대해 알아보자&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>Jetpack Navigation 사용시에, Fragment 생명주기 에 대해 알아보자</description>
     </item>
     <item>
       <title>Fragment에서 Memory Leak이 발생할 수 있는 경우</title>
       <link>https://2taezeat.github.io/posts/2023/fragment%EC%97%90%EC%84%9C-memory-leak%EC%9D%B4-%EB%B0%9C%EC%83%9D%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
-      <pubDate>Thu, 17 Aug 2023 16:54:46 +0900</pubDate>
+      <pubDate>Thu, 17 Aug 2023 11:30:03 +0000</pubDate>
       <guid>https://2taezeat.github.io/posts/2023/fragment%EC%97%90%EC%84%9C-memory-leak%EC%9D%B4-%EB%B0%9C%EC%83%9D%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Fragment에서 Memory Leak이 발생할 수 있는 경우에 대해 알아보자.&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>Fragment에서 Memory Leak이 발생할 수 있는 경우에 대해 알아보자.</description>
     </item>
     <item>
       <title>Iterative Lengthening Search(ILS) 알고리즘</title>
       <link>https://2taezeat.github.io/posts/2023/iterative-lengthening-searchils-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
-      <pubDate>Sun, 13 Aug 2023 16:54:46 +0900</pubDate>
+      <pubDate>Sun, 13 Aug 2023 11:30:03 +0000</pubDate>
       <guid>https://2taezeat.github.io/posts/2023/iterative-lengthening-searchils-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Iterative Lengthening Search(ILS) 알고리즘&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>Iterative Lengthening Search(ILS) 알고리즘</description>
     </item>
     <item>
-      <title>[프로그래머스] Programmers_2020 Kakao Intern_경주로 건설_파이썬</title>
+      <title>[프로그래머스] 2020 Kakao Intern_경주로 건설_파이썬</title>
       <link>https://2taezeat.github.io/posts/2023/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-programmers_2020-kakao-intern_%EA%B2%BD%EC%A3%BC%EB%A1%9C-%EA%B1%B4%EC%84%A4_%ED%8C%8C%EC%9D%B4%EC%8D%AC/</link>
-      <pubDate>Sat, 12 Aug 2023 16:54:46 +0900</pubDate>
+      <pubDate>Sat, 12 Aug 2023 11:30:03 +0000</pubDate>
       <guid>https://2taezeat.github.io/posts/2023/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-programmers_2020-kakao-intern_%EA%B2%BD%EC%A3%BC%EB%A1%9C-%EA%B1%B4%EC%84%A4_%ED%8C%8C%EC%9D%B4%EC%8D%AC/</guid>
-      <description>&lt;h2 id=&#34;programmers_2020-kakao-intern_경주로-건설-풀이&#34;&gt;&lt;strong&gt;Programmers_2020 Kakao Intern_경주로 건설 풀이&lt;/strong&gt;&lt;/h2&gt;</description>
-    </item>
-    <item>
-      <title>new-post-four</title>
-      <link>https://2taezeat.github.io/posts/new-post-four/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://2taezeat.github.io/posts/new-post-four/</guid>
-      <description>new-post-four</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch2.-%EC%8B%9C%ED%80%80%EC%8A%A4-%EB%B9%8C%EB%8D%94/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch2.-%EC%8B%9C%ED%80%80%EC%8A%A4-%EB%B9%8C%EB%8D%94/</guid>
-      <description>2. 시퀀스 빌더 코틀린에서는 시퀀스를 생성할 때, 재너레이터 대신에 시퀀스 빌더; sequence { } 를 제공한다. 시퀀스의 특징 지연 계산 (Lazy Evaluation): 시퀀스의 요소는 실제로 필요할 때까지 계산되지 않으므로, 메모리 사용량을 줄이고 성능을 향상시킬 수 있습니다. yield 함수: yield 함수를 사용하여 시퀀스의 다음 요소를 생성합니다. 중간 연산 및 최종 연산: filter, map과 같은 중간 연산을 통해 시퀀스를 변환하고, toList, forEach와 같은 최종 연산을 통해 결과를 얻을 수 있습니다. 무한 시퀀스 생성 가능: generateSequence 함수를 사용하여 무한 시퀀스를 생성할 수 있습니다.</description>
+      <description>[프로그래머스] 2020 Kakao Intern_경주로 건설_파이썬</description>
     </item>
   </channel>
 </rss>

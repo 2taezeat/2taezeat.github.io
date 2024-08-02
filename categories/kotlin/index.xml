@@ -2,106 +2,99 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Kotlin on 2taezeat, blog</title>
-    <link>https://2taezeat.github.io/categories/kotlin/</link>
+    <link>http://localhost:1313/categories/kotlin/</link>
     <description>Recent content in Kotlin on 2taezeat, blog</description>
     <image>
       <title>2taezeat, blog</title>
-      <url>https://2taezeat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://2taezeat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.130.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 17 Nov 2023 01:54:46 +0900</lastBuildDate>
-    <atom:link href="https://2taezeat.github.io/categories/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/kotlin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kotlin Flow, (7) SharedFlow, StateFlow</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-7-sharedflow-stateflow/</link>
+      <link>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-7-sharedflow-stateflow/</link>
       <pubDate>Fri, 17 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-7-sharedflow-stateflow/</guid>
+      <guid>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-7-sharedflow-stateflow/</guid>
       <description>&lt;p&gt;&lt;strong&gt;SharedFlow, StateFlow 에 대해 알아보자.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kotlin Flow, (6) Flow 처리(Processing)</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-6-flow-%EC%B2%98%EB%A6%ACprocessing/</link>
+      <link>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-6-flow-%EC%B2%98%EB%A6%ACprocessing/</link>
       <pubDate>Thu, 16 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-6-flow-%EC%B2%98%EB%A6%ACprocessing/</guid>
+      <guid>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-6-flow-%EC%B2%98%EB%A6%ACprocessing/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Flow 처리(Processing)에 대해 알아보자.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kotlin Flow, (5) Flow 생명주기 함수</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-5-flow-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%ED%95%A8%EC%88%98/</link>
+      <link>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-5-flow-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%ED%95%A8%EC%88%98/</link>
       <pubDate>Wed, 15 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-5-flow-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%ED%95%A8%EC%88%98/</guid>
+      <guid>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-5-flow-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%ED%95%A8%EC%88%98/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Flow 생명주기 함수를 알아보자.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kotlin Flow, (4) Flow 만들기</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-4-flow-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
+      <link>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-4-flow-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
       <pubDate>Tue, 14 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-4-flow-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
+      <guid>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-4-flow-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Flow 를 생성해보자.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kotlin Flow, (3) Flow의 실제 구현</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-3-flow%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</link>
+      <link>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-3-flow%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</link>
       <pubDate>Mon, 13 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-3-flow%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</guid>
+      <guid>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-3-flow%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Flow의 실제 내부 구현은 어떻게 되어 있을까?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kotlin Flow, (2) Flow 개요</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-2-flow-%EA%B0%9C%EC%9A%94/</link>
+      <link>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-2-flow-%EA%B0%9C%EC%9A%94/</link>
       <pubDate>Sun, 12 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-2-flow-%EA%B0%9C%EC%9A%94/</guid>
+      <guid>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-2-flow-%EA%B0%9C%EC%9A%94/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Flow란 무엇인가?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kotlin Flow, (1) Hot vs Cold</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-1-hot-vs-cold/</link>
+      <link>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-1-hot-vs-cold/</link>
       <pubDate>Sat, 11 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-1-hot-vs-cold/</guid>
+      <guid>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-flow-1-hot-vs-cold/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Hot vs Cold 데이터 스트림에 대해 알아 보자.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Kotest 도입기</title>
-      <link>https://2taezeat.github.io/posts/2023/kotest-%EB%8F%84%EC%9E%85%EA%B8%B0/</link>
-      <pubDate>Sat, 04 Nov 2023 02:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/2023/kotest-%EB%8F%84%EC%9E%85%EA%B8%B0/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Kotest 도입기&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Kotlin Coroutine, 내부</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch4.-%EC%BD%94%EB%A3%A8%ED%8B%B4%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</link>
+      <link>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch4.-%EC%BD%94%EB%A3%A8%ED%8B%B4%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</link>
       <pubDate>Wed, 01 Nov 2023 02:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch4.-%EC%BD%94%EB%A3%A8%ED%8B%B4%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</guid>
+      <guid>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch4.-%EC%BD%94%EB%A3%A8%ED%8B%B4%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine 내부 동작을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kotlin Coroutine, 내부</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EB%82%B4%EB%B6%80/</link>
+      <link>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EB%82%B4%EB%B6%80/</link>
       <pubDate>Wed, 01 Nov 2023 02:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EB%82%B4%EB%B6%80/</guid>
+      <guid>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EB%82%B4%EB%B6%80/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine 내부 동작을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kotlin Coroutine, Suspend &amp; Resume</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch3.-%EC%A4%91%EB%8B%A8%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%A0%EA%B9%8C/</link>
+      <link>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch3.-%EC%A4%91%EB%8B%A8%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%A0%EA%B9%8C/</link>
       <pubDate>Wed, 01 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch3.-%EC%A4%91%EB%8B%A8%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%A0%EA%B9%8C/</guid>
+      <guid>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch3.-%EC%A4%91%EB%8B%A8%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%A0%EA%B9%8C/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine Suspend, Resume을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kotlin Coroutine, Suspend &amp; Resume</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-suspend--resume/</link>
+      <link>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-suspend--resume/</link>
       <pubDate>Wed, 01 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-suspend--resume/</guid>
+      <guid>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-suspend--resume/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine Suspend, Resume을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kotlin Coroutine, 기본</title>
-      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EA%B8%B0%EB%B3%B8/</link>
+      <link>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EA%B8%B0%EB%B3%B8/</link>
       <pubDate>Tue, 31 Oct 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EA%B8%B0%EB%B3%B8/</guid>
+      <guid>http://localhost:1313/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EA%B8%B0%EB%B3%B8/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine 기본 개념을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>

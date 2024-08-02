@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Design Pattern on 2taezeat, blog</title>
+    <link>https://2taezeat.github.io/tags/design-pattern/</link>
+    <description>Recent content in Design Pattern on 2taezeat, blog</description>
+    <image>
+      <title>2taezeat, blog</title>
+      <url>https://2taezeat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://2taezeat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.130.0</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 Dec 2023 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://2taezeat.github.io/tags/design-pattern/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MVC, MVP, MVVM 정리</title>
+      <link>https://2taezeat.github.io/posts/dev/mvc-mvp-mvvm-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Fri, 08 Dec 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/dev/mvc-mvp-mvvm-%EC%A0%95%EB%A6%AC/</guid>
+      <description>MVC, MVP, MVVM 정리</description>
+    </item>
+    <item>
+      <title>DI(Dependency Injection) 정리</title>
+      <link>https://2taezeat.github.io/posts/dev/di-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Sat, 02 Dec 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/dev/di-%EC%A0%95%EB%A6%AC/</guid>
+      <description>DI(Dependency Injection) 정리</description>
+    </item>
+  </channel>
+</rss>
