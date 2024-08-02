@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Computer Architecture on 2taezeat, blog</title>
+    <link>http://localhost:1313/categories/computer-architecture/</link>
+    <description>Recent content in Computer Architecture on 2taezeat, blog</description>
+    <image>
+      <title>2taezeat, blog</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.130.0</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Apr 2024 01:01:46 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/computer-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>컴퓨터구조 &#43; 운영체제, 운영체제 시작하기 (ch9)</title>
+      <link>http://localhost:1313/posts/os/2024-04-01-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0-&#43;-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-ch9/</link>
+      <pubDate>Mon, 01 Apr 2024 01:01:46 +0900</pubDate>
+      <guid>http://localhost:1313/posts/os/2024-04-01-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0-&#43;-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-ch9/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&amp;lsquo;혼자 공부하는 컴퓨터구조+운영체제&amp;rsquo;, ch9. 운영체제 시작하기 을 읽고, 정리한다.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

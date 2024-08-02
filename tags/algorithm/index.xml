@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Algorithm on 2taezeat, blog</title>
+    <link>https://2taezeat.github.io/tags/algorithm/</link>
+    <description>Recent content in Algorithm on 2taezeat, blog</description>
+    <image>
+      <title>2taezeat, blog</title>
+      <url>https://2taezeat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://2taezeat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.130.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 27 Jan 2024 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://2taezeat.github.io/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch32. 그래프</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch32.-%EA%B7%B8%EB%9E%98%ED%94%84/</link>
+      <pubDate>Sat, 27 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch32.-%EA%B7%B8%EB%9E%98%ED%94%84/</guid>
+      <description>ch32. 네트워크 유량</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch31. 그래프</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch31.-%EA%B7%B8%EB%9E%98%ED%94%84/</link>
+      <pubDate>Fri, 26 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch31.-%EA%B7%B8%EB%9E%98%ED%94%84/</guid>
+      <description>ch31. 최소 스패닝 트리</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch30. 그래프</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch30.-%EA%B7%B8%EB%9E%98%ED%94%84/</link>
+      <pubDate>Thu, 25 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch30.-%EA%B7%B8%EB%9E%98%ED%94%84/</guid>
+      <description>ch30. 최단 경로 알고리즘)</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch29. 그래프</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch29.-%EA%B7%B8%EB%9E%98%ED%94%84/</link>
+      <pubDate>Wed, 24 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch29.-%EA%B7%B8%EB%9E%98%ED%94%84/</guid>
+      <description>ch29. 그래프의 너비 우선 탐색 (BFS)</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch28. 그래프</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch28.-%EA%B7%B8%EB%9E%98%ED%94%84/</link>
+      <pubDate>Tue, 23 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch28.-%EA%B7%B8%EB%9E%98%ED%94%84/</guid>
+      <description>ch28. 그래프의 깊이 우선 탐색 (DFS)</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch27. 그래프</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch27.-%EA%B7%B8%EB%9E%98%ED%94%84/</link>
+      <pubDate>Mon, 22 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch27.-%EA%B7%B8%EB%9E%98%ED%94%84/</guid>
+      <description>ch27. 그래프의 표현과 정의</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch26. 트리</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch26.-%ED%8A%B8%EB%A6%AC/</link>
+      <pubDate>Sun, 21 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch26.-%ED%8A%B8%EB%A6%AC/</guid>
+      <description>ch26. 트라이</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch25. 트리</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch25.-%ED%8A%B8%EB%A6%AC/</link>
+      <pubDate>Sat, 20 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch25.-%ED%8A%B8%EB%A6%AC/</guid>
+      <description>ch25. 상호 배타적 집합 (유니온-파인드)</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch24. 트리</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch24.-%ED%8A%B8%EB%A6%AC/</link>
+      <pubDate>Fri, 19 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch24.-%ED%8A%B8%EB%A6%AC/</guid>
+      <description>ch24. 구간 트리 (세그먼트 트리)</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch23. 트리</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch23.-%ED%8A%B8%EB%A6%AC/</link>
+      <pubDate>Thu, 18 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch23.-%ED%8A%B8%EB%A6%AC/</guid>
+      <description>ch23. 우선운위 큐와 힙</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch22. 트리</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch22.-%ED%8A%B8%EB%A6%AC/</link>
+      <pubDate>Wed, 17 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch22.-%ED%8A%B8%EB%A6%AC/</guid>
+      <description>ch22. 이진 검색 트리</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch21. 트리</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch21.-%ED%8A%B8%EB%A6%AC/</link>
+      <pubDate>Tue, 16 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch21.-%ED%8A%B8%EB%A6%AC/</guid>
+      <description>ch21. 트리의 구현과 순회</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch20. 기초 자료 구조</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch20.-%EA%B8%B0%EC%B4%88-%EC%9E%90%EB%A3%8C-%EA%B5%AC%EC%A1%B0/</link>
+      <pubDate>Mon, 15 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch20.-%EA%B8%B0%EC%B4%88-%EC%9E%90%EB%A3%8C-%EA%B5%AC%EC%A1%B0/</guid>
+      <description>ch20. 문자열</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch19. 기초 자료 구조</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch19.-%EA%B8%B0%EC%B4%88-%EC%9E%90%EB%A3%8C-%EA%B5%AC%EC%A1%B0/</link>
+      <pubDate>Sun, 14 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch19.-%EA%B8%B0%EC%B4%88-%EC%9E%90%EB%A3%8C-%EA%B5%AC%EC%A1%B0/</guid>
+      <description>ch19. 큐와 스텍, 데크</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch18. 기초 자료 구조</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch18.-%EA%B8%B0%EC%B4%88-%EC%9E%90%EB%A3%8C-%EA%B5%AC%EC%A1%B0/</link>
+      <pubDate>Sat, 13 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch18.-%EA%B8%B0%EC%B4%88-%EC%9E%90%EB%A3%8C-%EA%B5%AC%EC%A1%B0/</guid>
+      <description>ch18. 선형 자료 구조 (동적 배열, 연결 리스트)</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch17. 기초 자료 구조</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch17.-%EA%B8%B0%EC%B4%88-%EC%9E%90%EB%A3%8C-%EA%B5%AC%EC%A1%B0/</link>
+      <pubDate>Fri, 12 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch17.-%EA%B8%B0%EC%B4%88-%EC%9E%90%EB%A3%8C-%EA%B5%AC%EC%A1%B0/</guid>
+      <description>ch17. 부분 합</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch16. 기초 자료 구조</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch16.-%EA%B8%B0%EC%B4%88-%EC%9E%90%EB%A3%8C-%EA%B5%AC%EC%A1%B0/</link>
+      <pubDate>Thu, 11 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch16.-%EA%B8%B0%EC%B4%88-%EC%9E%90%EB%A3%8C-%EA%B5%AC%EC%A1%B0/</guid>
+      <description>ch16. 비트마스크</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch13, 14, 15. 유명한 알고리즘들</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch13-14-15.-%EC%9C%A0%EB%AA%85%ED%95%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EB%93%A4/</link>
+      <pubDate>Wed, 10 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch13-14-15.-%EC%9C%A0%EB%AA%85%ED%95%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EB%93%A4/</guid>
+      <description>ch13. 수치해석, ch14. 정수론, ch15. 계산 기하</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch12. 알고리즘 설계 패러다임</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch12.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84/</link>
+      <pubDate>Tue, 09 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch12.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84/</guid>
+      <description>ch12. 최적화 문제 결정 문제로 바꿔 풀기 (파라매트릭 서치)</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch11. 알고리즘 설계 패러다임</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch11.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84/</link>
+      <pubDate>Mon, 08 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch11.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84/</guid>
+      <description>ch11. 조합 탐색 (조합 탐색 최적화 방법: 가지 치기)</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch10. 알고리즘 설계 패러다임</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch10.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84/</link>
+      <pubDate>Sun, 07 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch10.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84/</guid>
+      <description>ch10. 탐욕법</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch09. 알고리즘 설계 패러다임</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch09.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84/</link>
+      <pubDate>Sat, 06 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch09.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84/</guid>
+      <description>ch09. 동적 계획법 테크닉</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch08. 알고리즘 설계 패러다임</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch08.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84/</link>
+      <pubDate>Fri, 05 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch08.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84/</guid>
+      <description>ch08. 동적 계획법</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch07. 알고리즘 설계 패러다임</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch07.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84/</link>
+      <pubDate>Thu, 04 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch07.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84/</guid>
+      <description>ch07. 분할 정복</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch06. 알고리즘 설계 패러다임</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch06.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84/</link>
+      <pubDate>Wed, 03 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch06.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84/</guid>
+      <description>ch06. 무식하게 풀기</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch04, 05. 알고리즘 분석</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch04-05.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%B6%84%EC%84%9D/</link>
+      <pubDate>Tue, 02 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch04-05.-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%B6%84%EC%84%9D/</guid>
+      <description>ch04. 알고리즘의 시간 복잡도 분석, ch05. 알고리즘의 정당성 증명</description>
+    </item>
+    <item>
+      <title>[알고리즘 문제 해결 전략] ch01, 02, 03. 문제 해결 시작하기</title>
+      <link>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch01-02-03.-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Mon, 01 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5-ch01-02-03.-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</guid>
+      <description>ch01. 문제 해결과 프로그래밍 대회, ch02. 문제 해결 개관, ch03. 코딩과 디버깅에 관하여</description>
+    </item>
+  </channel>
+</rss>

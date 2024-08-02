@@ -1,0 +1,52 @@
+---
+layout: post
+title: "Kotlin Coroutine, Suspend & Resume"
+date: 2023-11-01 01:54:46+0900
+author: 2taezeat
+toc: true
+categories:
+
+- blog
+- Kotlin
+- Coroutine
+
+
+---
+
+<!--more-->
+---
+
+
+
+# 5. 코루틴: 언어 차원에서의 지원 vs 라이브러리
+
+- 코루틴은 코틀린 언어 자체적을 지원하는 부분(**컴파일러의 지원과 코틀린 기본 라이브러리의 요소**)
+
+  - 언어 차원은 자유도를 보장하기 위해 코루틴을 최소한으로 지원
+
+  - 직접 다루기 어려움
+
+  - 애플리케이션 개발자들보다는 라이브러리 개발자에게 적합
+
+    
+
+- 코틀린 코루틴 라이브러리 (`kotlinx.coroutines`) 로 구성되어 있다.
+
+  - 별도의 의존성을 추가해야 한다
+  - 이 라이브러리는 언어 차원에서 코루틴을 지원하기 위해 만들어짐.
+  - 사용하기 휠씬 쉬우며, 동시성을 명확하게 구현할 수 있게 해준다.
+
+- 둘은 같은 것으로 취급 되곤 하지만, 실상은 다르다
+
+
+
+<img src="/Users/taezeat/IdeaProjects/myBlog/assets/img/blog/2024/image-20240716202755630.png" alt="image-20240716202755630" style="zoom:50%;" />
+
+
+
+
+
+# Reference
+
+- https://kotlinlang.org/docs/coroutines-guide.html
+- 코틀린 코루틴 Kotlin Coroutines: Deep Dive (Marcin Moskała, 인사이트)

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Algorithm on 2taezeat, blog</title>
+    <link>https://2taezeat.github.io/categories/algorithm/</link>
+    <description>Recent content in Algorithm on 2taezeat, blog</description>
+    <image>
+      <title>2taezeat, blog</title>
+      <url>https://2taezeat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://2taezeat.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.130.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 13 Aug 2023 16:54:46 +0900</lastBuildDate>
+    <atom:link href="https://2taezeat.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Iterative Lengthening Search(ILS) 알고리즘</title>
+      <link>https://2taezeat.github.io/posts/2023/2023-08-13-iterative-lengthening-searchils-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
+      <pubDate>Sun, 13 Aug 2023 16:54:46 +0900</pubDate>
+      <guid>https://2taezeat.github.io/posts/2023/2023-08-13-iterative-lengthening-searchils-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Iterative Lengthening Search(ILS) 알고리즘&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
