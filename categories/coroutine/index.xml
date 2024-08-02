@@ -15,24 +15,17 @@
     <atom:link href="https://2taezeat.github.io/categories/coroutine/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kotlin Coroutine, 내부</title>
-      <link>https://2taezeat.github.io/posts/2023/2023-11-01-kotlin-coroutine-%EB%82%B4%EB%B6%80/</link>
-      <pubDate>Wed, 01 Nov 2023 02:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/2023/2023-11-01-kotlin-coroutine-%EB%82%B4%EB%B6%80/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine 내부 동작을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kotlin Coroutine, 내부</title>
       <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch4.-%EC%BD%94%EB%A3%A8%ED%8B%B4%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</link>
       <pubDate>Wed, 01 Nov 2023 02:54:46 +0900</pubDate>
       <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4--ch4.-%EC%BD%94%EB%A3%A8%ED%8B%B4%EC%9D%98-%EC%8B%A4%EC%A0%9C-%EA%B5%AC%ED%98%84/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine 내부 동작을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Kotlin Coroutine, Suspend &amp; Resume</title>
-      <link>https://2taezeat.github.io/posts/2023/2023-11-01-kotlin-coroutine-suspend--resume/</link>
-      <pubDate>Wed, 01 Nov 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/2023/2023-11-01-kotlin-coroutine-suspend--resume/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine Suspend, Resume을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
+      <title>Kotlin Coroutine, 내부</title>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EB%82%B4%EB%B6%80/</link>
+      <pubDate>Wed, 01 Nov 2023 02:54:46 +0900</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EB%82%B4%EB%B6%80/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine 내부 동작을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kotlin Coroutine, Suspend &amp; Resume</title>
@@ -42,10 +35,17 @@
       <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine Suspend, Resume을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Kotlin Coroutine, Suspend &amp; Resume</title>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-suspend--resume/</link>
+      <pubDate>Wed, 01 Nov 2023 01:54:46 +0900</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-suspend--resume/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine Suspend, Resume을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Kotlin Coroutine, 기본</title>
-      <link>https://2taezeat.github.io/posts/2023/2023-10-31-kotlin-coroutine-%EA%B8%B0%EB%B3%B8/</link>
+      <link>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EA%B8%B0%EB%B3%B8/</link>
       <pubDate>Tue, 31 Oct 2023 01:54:46 +0900</pubDate>
-      <guid>https://2taezeat.github.io/posts/2023/2023-10-31-kotlin-coroutine-%EA%B8%B0%EB%B3%B8/</guid>
+      <guid>https://2taezeat.github.io/posts/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%BD%94%EB%A3%A8%ED%8B%B4/kotlin-coroutine-%EA%B8%B0%EB%B3%B8/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Kotlin Coroutine 기본 개념을 정리 한다.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
