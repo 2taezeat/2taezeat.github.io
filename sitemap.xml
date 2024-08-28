@@ -2,27 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch01.-jpa-%EC%86%8C%EA%B0%9C/</loc>
-    <lastmod>2024-08-01T11:30:03+00:00</lastmod>
+    <loc>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch07.-%EA%B3%A0%EA%B8%89-%EB%A7%A4%ED%95%91/</loc>
+    <lastmod>2024-08-07T11:30:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://2taezeat.github.io/</loc>
-    <lastmod>2024-08-01T11:30:03+00:00</lastmod>
+    <lastmod>2024-08-07T11:30:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://2taezeat.github.io/tags/backend/</loc>
+    <lastmod>2024-08-07T11:30:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://2taezeat.github.io/tags/jpa/</loc>
-    <lastmod>2024-08-01T11:30:03+00:00</lastmod>
+    <lastmod>2024-08-07T11:30:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://2taezeat.github.io/posts/</loc>
-    <lastmod>2024-08-01T11:30:03+00:00</lastmod>
+    <lastmod>2024-08-07T11:30:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://2taezeat.github.io/tags/</loc>
+    <lastmod>2024-08-07T11:30:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch06.-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84-%EB%A7%A4%ED%95%91/</loc>
+    <lastmod>2024-08-06T11:30:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch05.-%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84-%EB%A7%A4%ED%95%91-%EA%B8%B0%EC%B4%88/</loc>
+    <lastmod>2024-08-05T11:30:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch04.-%EC%97%94%ED%8B%B0%ED%8B%B0-%EB%A7%A4%ED%95%91/</loc>
+    <lastmod>2024-08-04T11:30:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch03.-%EC%98%81%EC%86%8D%EC%84%B1-%EA%B4%80%EB%A6%AC/</loc>
+    <lastmod>2024-08-03T11:30:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch02.-jpa-%EC%8B%9C%EC%9E%91/</loc>
+    <lastmod>2024-08-02T11:30:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch01.-jpa-%EC%86%8C%EA%B0%9C/</loc>
     <lastmod>2024-08-01T11:30:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
