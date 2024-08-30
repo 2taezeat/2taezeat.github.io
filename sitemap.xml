@@ -2,32 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch07.-%EA%B3%A0%EA%B8%89-%EB%A7%A4%ED%95%91/</loc>
-    <lastmod>2024-08-07T11:30:03+00:00</lastmod>
+    <loc>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch09.-%EA%B0%92-%ED%83%80%EC%9E%85/</loc>
+    <lastmod>2024-08-09T11:30:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://2taezeat.github.io/</loc>
-    <lastmod>2024-08-07T11:30:03+00:00</lastmod>
+    <lastmod>2024-08-09T11:30:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://2taezeat.github.io/tags/backend/</loc>
-    <lastmod>2024-08-07T11:30:03+00:00</lastmod>
+    <lastmod>2024-08-09T11:30:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://2taezeat.github.io/tags/jpa/</loc>
-    <lastmod>2024-08-07T11:30:03+00:00</lastmod>
+    <lastmod>2024-08-09T11:30:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://2taezeat.github.io/posts/</loc>
-    <lastmod>2024-08-07T11:30:03+00:00</lastmod>
+    <lastmod>2024-08-09T11:30:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://2taezeat.github.io/tags/</loc>
+    <lastmod>2024-08-09T11:30:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch08.-%ED%94%84%EB%A1%9D%EC%8B%9C%EC%99%80-%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84-%EC%A0%95%EB%A6%AC/</loc>
+    <lastmod>2024-08-08T11:30:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch07.-%EA%B3%A0%EA%B8%89-%EB%A7%A4%ED%95%91/</loc>
     <lastmod>2024-08-07T11:30:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
