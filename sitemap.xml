@@ -357,12 +357,22 @@
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://2taezeat.github.io/posts/dev/kotlin-%EC%A0%95%EB%A6%AC-6/</loc>
+    <lastmod>2023-12-09T11:30:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://2taezeat.github.io/posts/dev/oop-%EC%A0%95%EB%A6%AC/</loc>
     <lastmod>2023-12-09T11:30:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://2taezeat.github.io/tags/design-pattern/</loc>
+    <lastmod>2023-12-08T11:30:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://2taezeat.github.io/posts/dev/kotlin-%EC%A0%95%EB%A6%AC-5/</loc>
     <lastmod>2023-12-08T11:30:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

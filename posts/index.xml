@@ -434,11 +434,25 @@
       <description>ch01. 문제 해결과 프로그래밍 대회, ch02. 문제 해결 개관, ch03. 코딩과 디버깅에 관하여</description>
     </item>
     <item>
+      <title>Kotlin 정리 (6)</title>
+      <link>https://2taezeat.github.io/posts/dev/kotlin-%EC%A0%95%EB%A6%AC-6/</link>
+      <pubDate>Sat, 09 Dec 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/dev/kotlin-%EC%A0%95%EB%A6%AC-6/</guid>
+      <description>Kotlin 정리 (6)</description>
+    </item>
+    <item>
       <title>OOP 정리</title>
       <link>https://2taezeat.github.io/posts/dev/oop-%EC%A0%95%EB%A6%AC/</link>
       <pubDate>Sat, 09 Dec 2023 11:30:03 +0000</pubDate>
       <guid>https://2taezeat.github.io/posts/dev/oop-%EC%A0%95%EB%A6%AC/</guid>
       <description>OOP 정리</description>
+    </item>
+    <item>
+      <title>Kotlin 정리 (5)</title>
+      <link>https://2taezeat.github.io/posts/dev/kotlin-%EC%A0%95%EB%A6%AC-5/</link>
+      <pubDate>Fri, 08 Dec 2023 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/dev/kotlin-%EC%A0%95%EB%A6%AC-5/</guid>
+      <description>Kotlin 정리 (5)</description>
     </item>
     <item>
       <title>MVC, MVP, MVVM 정리</title>
