@@ -11,22 +11,8 @@
     </image>
     <generator>Hugo -- 0.130.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Aug 2024 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2024 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://2taezeat.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>[자바 ORM 표준 JPA] ch09. 값 타입</title>
-      <link>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch09.-%EA%B0%92-%ED%83%80%EC%9E%85/</link>
-      <pubDate>Fri, 09 Aug 2024 11:30:03 +0000</pubDate>
-      <guid>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch09.-%EA%B0%92-%ED%83%80%EC%9E%85/</guid>
-      <description>자바 ORM 표준 JPA 프로그래밍, ch09. 값 타입, 간단 정리</description>
-    </item>
-    <item>
-      <title>[자바 ORM 표준 JPA] ch08. 프록시와 연관관계 정리</title>
-      <link>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch08.-%ED%94%84%EB%A1%9D%EC%8B%9C%EC%99%80-%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84-%EC%A0%95%EB%A6%AC/</link>
-      <pubDate>Thu, 08 Aug 2024 11:30:03 +0000</pubDate>
-      <guid>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch08.-%ED%94%84%EB%A1%9D%EC%8B%9C%EC%99%80-%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84-%EC%A0%95%EB%A6%AC/</guid>
-      <description>자바 ORM 표준 JPA 프로그래밍, ch08. 프록시와 연관관계 정리, 간단 정리</description>
-    </item>
     <item>
       <title>[자바 ORM 표준 JPA] ch07. 고급 매핑</title>
       <link>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch07.-%EA%B3%A0%EA%B8%89-%EB%A7%A4%ED%95%91/</link>
