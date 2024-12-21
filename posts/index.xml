@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.130.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Aug 2024 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2024 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://2taezeat.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[자바,스프링 개발자를 위한 실용주의 프로그래밍] 1부. 객체지향</title>
+      <link>https://2taezeat.github.io/posts/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%94%84%EB%A7%81-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%8B%A4%EC%9A%A9%EC%A3%BC%EC%9D%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-1%EB%B6%80.-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5/</link>
+      <pubDate>Fri, 20 Dec 2024 11:30:03 +0000</pubDate>
+      <guid>https://2taezeat.github.io/posts/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%94%84%EB%A7%81-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%8B%A4%EC%9A%A9%EC%A3%BC%EC%9D%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-1%EB%B6%80.-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5/</guid>
+      <description>[자바,스프링 개발자를 위한 실용주의 프로그래밍] 1부. 객체지향</description>
+    </item>
     <item>
       <title>[자바 ORM 표준 JPA] ch07. 고급 매핑</title>
       <link>https://2taezeat.github.io/posts/jpa/%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-ch07.-%EA%B3%A0%EA%B8%89-%EB%A7%A4%ED%95%91/</link>
